@@ -1,0 +1,164 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{chowdhury2010consumer}
+H.~K. Chowdhury, N.~Parvin, C.~Weitenberner, M.~Becker, Consumer attitude
+  toward mobile advertising in an emerging market: An empirical study,
+  International Journal of Mobile Marketing (2006) 37.
+
+\bibitem{android:platform}
+{Google Inc}.
+\newblock \href{http://www.android.com/}{{Android}} [online, cited 03.05.15].
+
+\bibitem{mmarshall-top10}
+M.~Marshall.
+\newblock
+  \href{http://venturebeat.com/2013/06/12/the-top-10-mobile-advertising-companies/}{The
+  top 10 mobile advertising companies} [online] (June 2013) [cited 03.05.15].
+
+\bibitem{crunchbase-admob}
+\href{https://www.crunchbase.com/organization/admob}{Admob | crunchbase}
+  [online, cited 03.05.15].
+
+\bibitem{emarketer-google}
+\href{http://www.emarketer.com/Article/Microsoft-Surpass-Yahoo-Global-Digital-Ad-Market-Share-This-Year/1011012}{Microsoft
+  to surpass yahoo in global digital ad market share this year} [online, cited
+  03.05.15].
+
+\bibitem{google-admob}
+\href{http://googleblog.blogspot.com/2010/05/weve-officially-acquired-admob.html}{We've
+  officially acquired admob!} [online] (May 2010) [cited 03.05.15].
+
+\bibitem{admob-adsense}
+N.~Singh.
+\newblock
+  \href{https://www.techmesto.com/admob-mobile-web-merging-with-adsense/}{Admob
+  for mobile web merging with adsense} [online] (September 2011) [cited
+  03.05.15].
+
+\bibitem{admob-sdk}
+\href{https://developers.google.com/mobile-ads-sdk/download}{Downloads - google
+  mobile ads sdk - google developers} [online, cited 03.05.15].
+
+\bibitem{admob-banner}
+\href{https://developers.google.com/mobile-ads-sdk/docs/admob/android/banner}{Banner
+  ad customization} [online, cited 03.05.15].
+
+\bibitem{admob-interstitial}
+\href{https://developers.google.com/mobile-ads-sdk/docs/admob/android/interstitial}{Interstitial
+  ad - admob android guides - google developers} [online, cited 03.05.15].
+
+\bibitem{crunchbase-millenial}
+\href{https://www.crunchbase.com/organization/millennial-media}{Millenial media
+  | crunchbase} [online, cited 03.05.15].
+
+\bibitem{millenial-sdk}
+\href{http://docs.millennialmedia.com/}{Hello, world. | millenial media
+  developers} [online, cited 03.05.15].
+
+\bibitem{millenial-android}
+\href{http://docs.millennialmedia.com/android-SDK/}{Getting started | android
+  sdk | milleneal media developers} [online, cited 03.05.15].
+
+\bibitem{crunchbase-quattro}
+\href{https://www.crunchbase.com/organization/quattro-wireless
+  https://www.crunchbase.com/organization/quattro-wireless
+  https://www.crunchbase.com/organization/quattro-wireless
+  https://www.crunchbase.com/organization/quattro-wireless
+  https://www.crunchbase.com/organization/quattro-wireless}{Quattro |
+  crunchbase} [online, cited 03.05.15].
+
+\bibitem{forbes-iad}
+E.~Jackson.
+\newblock
+  \href{http://www.forbes.com/sites/ericjackson/2011/11/11/what-is-next-for-apples-iad/}{What
+  is next for apple's iad?} [online] (November 2011) [cited 03.05.15].
+
+\bibitem{forbes-iad2}
+\href{http://www.forbes.com/sites/greatspeculations/2014/12/18/how-apple-is-revamping-its-iad-platform/}{How
+  apple is revamping its iad platform} [online] (December 2014) [cited
+  03.05.15].
+
+\bibitem{iad-tutorial}
+C.~Ching.
+\newblock \href{http://codewithchris.com/iad-tutorial/}{iad tutorial - how to
+  integrate iad banners into your app} [online] (May 2014) [cited 03.05.15].
+
+\bibitem{crunchbase-flurry}
+\href{https://www.crunchbase.com/organization/flurry}{Flurry | crunchbase}
+  [online, cited 03.05.15].
+
+\bibitem{maps-yankeegroup}
+ [online, cited
+  20.04.15]\href{http://maps.yankeegroup.com/ygapp/content/f47515e9c15c4eac90bab1ced3582bdf/50/DAILYINSIGHT/0}{[link]}.
+
+\bibitem{crunchbase-inmobi}
+\href{https://www.crunchbase.com/organization/inmobi}{Inmobi | crunchbase}
+  [online].
+
+\bibitem{inmobi}
+\href{http://www.inmobi.com/}{Mobile advertising | monetization | analytics |
+  inmobi} [online, cited 03.05.15].
+
+\bibitem{inmobi-monetize}
+\href{http://www.inmobi.com/monetize/}{Mobile monetization | high ecpms | app
+  developers | inmobi} [online, cited 03.05.15].
+
+\bibitem{inmobi-sdk}
+\href{https://www.inmobi.com/support/integration/23817448/22051163/android-sdk-integration-guide/}{Integration
+  document | inmobi support portal} [online, cited 03.05.15].
+
+\bibitem{crunchbase-chartboost}
+\href{https://www.crunchbase.com/organization/chartboost}{Chartboost |
+  crunchbase} [online, cited 03.05.15].
+
+\bibitem{chartboost}
+\href{https://www.chartboost.com/}{Grow mobile game revenue with chartboost}
+  [online, cited 03.05.15].
+
+\bibitem{hongikiat-monetize}
+A.~Falcon.
+\newblock
+  \href{http://www.hongkiat.com/blog/mobile-app-monetizing-networks/}{20
+  advertising networks to monetize your mobile app} [online] (March 2013)
+  [cited 03.05.15].
+
+\bibitem{crunchbase-mopub}
+\href{https://www.crunchbase.com/organization/mopub}{Mopub | crunchbase}
+  [online, cited 03.05.15].
+
+\bibitem{mopub-marketplace}
+\href{http://www.mopub.com/platform/marketplace/}{Mopub marketplace :: Mopub}
+  [online, cited 03.05.15].
+
+\bibitem{mopub-resources}
+\href{http://www.mopub.com/resources/}{Resources :: Mopub} [online, cited
+  03.05.15].
+
+\bibitem{crunchbase-amobee}
+\href{https://www.crunchbase.com/organization/amobee}{Amobee | crunchbase}
+  [online, cited 03.05.15].
+
+\bibitem{dockers}
+R.~Chang.
+\newblock
+  \href{http://adage.com/article/digital/iphone-marketing-dockers-introduces-shakeable-ad/135197/}{Dockers
+  introduces 'shakeable' iphone ad} [online, cited 03.05.15].
+
+\bibitem{adtile}
+\href{http://www.adtile.me/motion-ads/}{Adtile motion ads} [online, cited
+  03.05.15].
+
+\bibitem{gesture-ads}
+H.~F. P. H.~Y. Li, Can in-app ads be less annoying for smartphone users (2014).
+
+\bibitem{notifications:gcm}
+{Google, Inc}.
+\newblock \href{http://developer.android.com/guide/google/gcm/}{{GCM - Google
+  Cloud Messaging for Android}} [online, cited 03.05.15].
+
+\end{thebibliography}

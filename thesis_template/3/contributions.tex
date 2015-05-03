@@ -2,10 +2,10 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- name of chapter  -------------------------
-\chapter{Your Contribution} % top level followed by section, subsection
+\chapter{Implementation} % top level followed by section, subsection
 
-%transition between chapters, usually no more than two parragraphs
-Transition - Several are the issues that were discussed in previous chapter, regarding the use of cloud services from the mobile...
+%transition between chapters, usually no more than two paragraphs
+
 
 
 %: ----------------------- paths to graphics ------------------------
@@ -17,20 +17,42 @@ Transition - Several are the issues that were discussed in previous chapter, reg
     \graphicspath{{X/figures/EPS/}{X/figures/}}
 \fi
 
-%: ----------------------- Mobile Cloud Middleware ------------------------
+A library was developed to demonstrate the feasibility of the proposed approach. It consists of two parts the library itself and a back-end used solely for testing purposes.
 
-\section{Your Brilliant Ideas ...}
-This part of the thesis is much more free-form. It may have one or several sections and subsections. But it all has only one purpose: to convince the examiners that you answered the question or solved the problem that you set for yourself in Section 4. Here, you have to present. Your brilliant idea(s), description, mathematical model that support your idea(s), analysis of the solution (e.g. performance,  scalability, etc.)
+\section{Front-end}
 
+The library is a lightweight API that consists mainly of two parts: communication with the server,  and the ad view. The components of the server communication part are as follows:
 
+\textit{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\cite{notifications:gcm} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
 
+\textit{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
+
+The \textit{ServerUtilities} class is an abstraction layer for communicating with our server. It has methods for registering and unregistering the device that are called in \textit{GCMIntentService} as discussed previously.
+
+Finally, \textit{FileDownloader} is responsible for downloading the image files for an advertisement once \textit{GCMIntentService} receives and decodes them.
+
+The user interface portion of the library is in a single class: \textit{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is then capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
+
+\section{Back-end}
+
+On the server-side there is a Java server application that handles the client's requests. The main components of the application are as follows:
+
+\textit{Datastore} is a simple implementation of a data store using standard Java collections. It is not persistent throughout redeploys, but its only purpose is to store the ids of registered devices.
+
+\textit{RegisterServlet} takes as a parameter the registration id from GCM and adds it to \textit{Datastore}'s id list.
+
+\textit{UnregisterServlet} takes as a parameter the registration id from that a device is registered with and removes it from \textit{Datastore}'s id list.
+
+\textit{HomeServlet} is the only servlet with a graphical user interface. It has a label displaying the amount of registered devices as well as buttons to send pre-determined advertisements to the registered devices.
+
+\textit{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to the devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
 
 \section{Summary}
-Summarize the chapter with at least two paragraphs.
 
+As can be seen, the implementation is really minimalistic. However the library can be added to any Android application written in Java and the simple back-end application can be used to demonstrate the proposed method of displaying advertisements to a mobile user.
 
+The next paragraph discusses the method used for gathering user feedback and analyses the results.
 
 % ---------------------------------------------------------------------------
 %: ----------------------- end of thesis sub-document ------------------------
 % ---------------------------------------------------------------------------
-

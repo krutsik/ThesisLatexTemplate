@@ -13,73 +13,13 @@
 % Most style definitions are in the external file PhDthesisPSnPDF.
 % In this template package, it can be found in ./Latex/Classes/
 \documentclass[twoside,11pt]{Latex/Classes/PhDthesisPSnPDF}
-
+\usepackage[toc,page]{appendix}
 
 %: Macro file for Latex
 % Macros help you summarise frequently repeated Latex commands.
 % Here, they are placed in an external file /Latex/Macros/MacroFile1.tex
 % An macro that you may use frequently is the figuremacro (see introduction.tex)
 \include{Latex/Macros/MacroFile1}
-
-
-
-%: ----------------------------------------------------------------------
-%:                  TITLE PAGE: name, degree,..
-% ----------------------------------------------------------------------
-% below is to generate the title page with crest and author name
-
-%if output to PDF then put the following in PDF header
-%DONT FORGET TO PUT THIS DATA
-\ifpdf  
-    \pdfinfo { /Title  (Title of your Thesis)
-               /Creator (TeX)
-               /Producer (pdfTeX)
-               /Author (YourName your@email.net)
-               /CreationDate (D:YYYYMMDDhhmmss)  %format D:YYYYMMDDhhmmss
-               /ModDate (D:YYYYMMDDhhmm)
-               /Subject (xyz)
-               /Keywords (add, your, keywords, here) }
-    \pdfcatalog { /PageMode (/UseOutlines)
-                  /OpenAction (fitbh)  }
-\fi
-
-
-\title{UNIVERSITY OF TARTU \\
-	FACULTY OF MATHEMATICS AND COMPUTER SCIENCE \\
-	Institute of Computer Science}
-
-
-
-% ----------------------------------------------------------------------
-% The section below defines www links/email for author and institutions
-% They will appear on the title page of the PDF and can be clicked
-\ifpdf
-  \author{\href{mailto:email@ut.ee}{Your Name}}
-%  \cityofbirth{born in XYZ} % uncomment this if your university requires this
-%  % If city of birth is required, also uncomment 2 sections in PhDthesisPSnPDF
-%  % Just search for the "city" and you'll find them.
-  \collegeordept{\href{http://www.something.net}{CollegeOrDepartment}}
-  \university{\href{http://www.something.net}{University}}
-
-  % The crest is a graphics file of the logo of your research institution.
-  % Place it in ./0_frontmatter/figures and specify the width
-  \crest{\includegraphics[width=4cm]{logo}}
-  
-% If you are not creating a PDF then use the following. The default is PDF.
-\else
-  \author{YourName}
-%  \cityofbirth{born in XYZ}
-  \collegeordept{CollegeOrDept}
-  \university{University}
-  \crest{\includegraphics[width=4cm]{logo}}
-\fi
-
-%\renewcommand{\submittedtext}{change the default text here if needed}
-\degree{Philosophi\ae Doctor (PhD), DPhil,..}
-\degreedate{year month}
-
-
-% ----------------------------------------------------------------------
        
 % turn of those nasty overfull and underfull hboxes
 \hbadness=10000
@@ -97,46 +37,15 @@
 
 \begin{document}
 
-
-
-
-%\language{english}
-
 % sets line spacing
 \renewcommand\baselinestretch{1.2}
 \baselineskip=18pt plus1pt
 
+%: ----------------------- UT cover page ------------------------
 
-%: ----------------------- generate cover page ------------------------
-
-%\maketitle  % command to print the title page with above variables
-
-
-%: ----------------------- cover page back side ------------------------
-% Your research institution may require reviewer names, etc.
-% This cover back side is required by Dresden Med Fac; uncomment if needed.
-
-%\newpage
-%\vspace{10mm}
-%1. Reviewer: Name
-
-%\vspace{10mm}
-%2. Reviewer: 
-
-%\vspace{20mm}
-%Day of the defense:
-
-%\vspace{20mm}
-%\hspace{70mm}Signature from head of PhD committee:
-
-
-%: ----------------------- Here comes the UT first page ------------------------
-
-%\include{title_page/stardard_page}
+\include{title_page/stardard_page}
 
 %: ----------------------- abstract ------------------------
-
-% Your institution may have specific regulations if you need an abstract and where it is to be placed in the document. The default here is just after title.
 
 \include{0_frontmatter/abstract}
 
@@ -145,28 +54,18 @@
 %   \input{Abstract/abstract}
 % \end{abstractseparate}
 
-
-%: ----------------------- tie in front matter ------------------------
-
-%\frontmatter
-%\include{0_frontmatter/dedication}
-%\include{0_frontmatter/acknowledgement}
-
-
 %: ----------------------- contents ------------------------
 
-\setcounter{secnumdepth}{3} % organisational level that receives a numbers
-\setcounter{tocdepth}{3}    % print table of contents for level 3
-\tableofcontents            % print the table of contents
+\setcounter{secnumdepth}{3}		% organisational level that receives a numbers
+\setcounter{tocdepth}{3}    		% print table of contents for level 3
+\tableofcontents            				% print the table of contents
 % levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
-
 
 %: ----------------------- list of figures/tables ------------------------
 
-\listoffigures	% print list of figures
+%\listoffigures	% print list of figures
 
 %\listoftables  % print list of tables
-
 
 %: ----------------------- glossary ------------------------
 
@@ -201,16 +100,14 @@
 % But take care that the paths match. You can also change the order of appearance by moving the include commands.
 
 \include{1_introduction/introduction}	% background information
-\include{2/stateofart}	        	% state of the art
-\include{3/researchquestion}		% problem statement
+\include{2/background}	        	% state of the art
+%\include{3/researchquestion}		% problem statement
 \include{3/contributions}		% how the solution solved the problem - your solution
 \include{4/casestudies}			% functional scenario
 \include{5/conclusions}			% final conclusions
-\include{6/relatedwork}	                % related work
-\include{6/futureresearch}		% future research directions
-\include{7/eestiabstract}               % discussion of results
-
-
+%\include{6/relatedwork}	                % related work
+%\include{6/futureresearch}		% future research directions
+%\include{7/eestiabstract}               % discussion of results
 
 % --------------------------------------------------------------
 %:                  BACK MATTER: appendices, refs,..
@@ -218,6 +115,33 @@
 
 % the back matter: appendix and references close the thesis
 
+%: ----------------------- appendices ------------------------
+
+\appendix{}
+\chapter{}
+\include{9_backmatter/questionnaire}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q1}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q2}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q4}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q5}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q6}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q7}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q8}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q9}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q11}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q12}
+\chapter{}
+\includegraphics[scale=0.5]{Images/q14}
 
 %: ----------------------- bibliography ------------------------
 
@@ -236,7 +160,7 @@
 
 
 \bibliographystyle{elsarticle-num}	% references style
-\bibliography{thesis}			% references bibtex file  - utilize JabRef
+\bibliography{thesis}						% references bibtex file  - utilize JabRef
 
 \end{tiny}
 \end{multicols}
@@ -260,13 +184,5 @@
 
 
 % --------------------------------------------------------------
-
-% according to Dresden med fac summary has to be at the end
-%\include{0_frontmatter/abstract}
-
-%: Declaration of originality
-%\include{9_backmatter/declaration}
-
-
 
 \end{document}
