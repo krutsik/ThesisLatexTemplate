@@ -39,9 +39,7 @@ On the server-side there is a Java server application that handles the client's 
 
 \textit{Datastore} is a simple implementation of a data store using standard Java collections. It is not persistent throughout redeploys, but its only purpose is to store the ids of registered devices.
 
-\textit{RegisterServlet} takes as a parameter the registration id from GCM and adds it to \textit{Datastore}'s id list.
-
-\textit{UnregisterServlet} takes as a parameter the registration id from that a device is registered with and removes it from \textit{Datastore}'s id list.
+\textit{RegisterServlet} takes as a parameter the registration id from GCM and adds it to \textit{Datastore}'s id list. Likewise, \textit{UnregisterServlet} takes as a parameter the registration id from that a device is registered with and removes it from \textit{Datastore}'s id list.
 
 \textit{HomeServlet} is the only servlet with a graphical user interface. It has a label displaying the amount of registered devices as well as buttons to send pre-determined advertisements to the registered devices.
 

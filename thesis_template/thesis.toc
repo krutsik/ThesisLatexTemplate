@@ -18,16 +18,17 @@
 \contentsline {section}{\numberline {4.4}Participants' Opinion of Dynamic Advertisements}{15}{section.4.4}
 \contentsline {section}{\numberline {4.5}Summary}{15}{section.4.5}
 \contentsline {chapter}{\numberline {5}Conclusions}{17}{chapter.5}
-\contentsline {chapter}{\numberline {A}}{19}{appendix.A}
-\contentsline {chapter}{\numberline {B}}{23}{appendix.B}
-\contentsline {chapter}{\numberline {C}}{25}{appendix.C}
-\contentsline {chapter}{\numberline {D}}{27}{appendix.D}
-\contentsline {chapter}{\numberline {E}}{29}{appendix.E}
-\contentsline {chapter}{\numberline {F}}{31}{appendix.F}
-\contentsline {chapter}{\numberline {G}}{33}{appendix.G}
-\contentsline {chapter}{\numberline {H}}{35}{appendix.H}
-\contentsline {chapter}{\numberline {I}}{37}{appendix.I}
-\contentsline {chapter}{\numberline {J}}{39}{appendix.J}
-\contentsline {chapter}{\numberline {K}}{41}{appendix.K}
-\contentsline {chapter}{\numberline {L}}{43}{appendix.L}
-\contentsline {chapter}{Bibliography}{43}{appendix*.2}
+\contentsline {chapter}{\numberline {6}Appendices}{19}{chapter.6}
+\contentsline {section}{\numberline {.1}Appendix A}{19}{section.Alph0.1}
+\contentsline {section}{\numberline {.2}Appendix B}{21}{section.Alph0.2}
+\contentsline {section}{\numberline {.3}Appendix C}{22}{section.Alph0.3}
+\contentsline {section}{\numberline {.4}Appendix D}{23}{section.Alph0.4}
+\contentsline {section}{\numberline {.5}Appendix E}{24}{section.Alph0.5}
+\contentsline {section}{\numberline {.6}Appendix F}{25}{section.Alph0.6}
+\contentsline {section}{\numberline {.7}Appendix G}{26}{section.Alph0.7}
+\contentsline {section}{\numberline {.8}Appendix H}{27}{section.Alph0.8}
+\contentsline {section}{\numberline {.9}Appendix I}{28}{section.Alph0.9}
+\contentsline {section}{\numberline {.10}Appendix J}{29}{section.Alph0.10}
+\contentsline {section}{\numberline {.11}Appendix K}{30}{section.Alph0.11}
+\contentsline {section}{\numberline {.12}Appendix L}{31}{section.Alph0.12}
+\contentsline {chapter}{Bibliography}{33}{appendix*.2}
