@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  10 MAY 2015 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  11 MAY 2015 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,7 +361,12 @@ File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
-))
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 205.
+
+)
 \@input{Latex/Macros/MacroFile1.aux}
 \openout2 = `Latex/Macros/MacroFile1.aux'.
 
@@ -462,26 +467,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [2
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 
+      [1
 
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [3]) [4
+
+[2]) (./thesis.toc [3
 \FN@pp@footnotehinttrue 
 
 
-] (./thesis.toc [5])
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [6]
+ [4]
 \openout2 = `1_introduction/introduction.aux'.
 
  (./1_introduction/introduction.tex
@@ -493,40 +503,34 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 ] [2]) [3]
 \openout2 = `3/researchquestion.aux'.
 
- (./3/researchquestion.tex [4
-
-
-
-]
+ (./3/researchquestion.tex
  2.
-<Images/banner.png, id=241, 191.71625pt x 377.41pt>
+<Images/banner.png, id=237, 191.71625pt x 377.41pt>
 File: Images/banner.png Graphic file (type png)
  <use Images/banner.png>
-Package pdftex.def Info: Images/banner.png used on input line 12.
+Package pdftex.def Info: Images/banner.png used on input line 14.
 (pdftex.def)             Requested size: 191.71577pt x 377.40907pt.
 
-<Images/fullscreen.png, id=243, 191.71625pt x 377.41pt>
+<Images/fullscreen.png, id=239, 191.71625pt x 377.41pt>
 File: Images/fullscreen.png Graphic file (type png)
 
 <use Images/fullscreen.png>
-Package pdftex.def Info: Images/fullscreen.png used on input line 13.
+Package pdftex.def Info: Images/fullscreen.png used on input line 15.
 (pdftex.def)             Requested size: 191.71577pt x 377.40907pt.
+ [4
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./Images/banner.png> <./Images/fullscreen.png>]) [7]
+] [5 <./Images/banner.png> <./Images/fullscreen.png>]) [6]
 \openout2 = `2/background.aux'.
 
- (./2/background.tex [8
+ (./2/background.tex
+ 3.
+[7
 
 
 
 ]
- 3.
-[9] [10]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -551,6 +555,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
+ [8]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -563,38 +568,34 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-Underfull \vbox (badness 1259) has occurred while \output is active []
-
- [11])
-[12]
+) [9]
 \openout2 = `3/contributions.aux'.
 
  (./3/contributions.tex
  4.
+[10
+
+
+
+] [11]) [12]
+\openout2 = `4/casestudies.aux'.
+
+ (./4/casestudies.tex
+ 5.
 [13
 
 
 
-] [14]) [15]
-\openout2 = `4/casestudies.aux'.
-
- (./4/casestudies.tex [16
-
-
-
-]
- 5.
-[17] [18] [19]) [20]
+] [14] [15]) [16]
 \openout2 = `5/conclusions.aux'.
 
  (./5/conclusions.tex
  6.
-[21
+[17
 
 
 
-]) [22]
+]) [18]
 \openout2 = `9_backmatter/appendices.aux'.
 
  (./9_backmatter/appendices.tex
@@ -649,7 +650,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 24
  []
  []
 
-[23
+[19
 
 
 
@@ -758,7 +759,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 54
  []
  []
 
-[24]
+[20]
 Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
@@ -778,139 +779,113 @@ Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
 
-) <Images/q1.png, id=407, 887.315pt x 652.4375pt>
+) <Images/q1.png, id=392, 887.315pt x 652.4375pt>
 File: Images/q1.png Graphic file (type png)
  <use Images/q1.png>
 Package pdftex.def Info: Images/q1.png used on input line 7.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
 
-<Images/q2.png, id=408, 887.315pt x 652.4375pt>
+<Images/q2.png, id=393, 887.315pt x 652.4375pt>
 File: Images/q2.png Graphic file (type png)
  <use Images/q2.png>
 Package pdftex.def Info: Images/q2.png used on input line 9.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25 <./Images/q1.png>] <Images/q4.png, id=417, 887.315pt x 652.4375pt>
+ [21 <./Images/q1.png>] <Images/q4.png, id=401, 887.315pt x 652.4375pt>
 File: Images/q4.png Graphic file (type png)
 
 <use Images/q4.png>
 Package pdftex.def Info: Images/q4.png used on input line 11.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26 <./Images/q2.png>] <Images/q5.png, id=423, 887.315pt x 652.4375pt>
+ [22 <./Images/q2.png>]
+<Images/q5.png, id=407, 887.315pt x 652.4375pt>
 File: Images/q5.png Graphic file (type png)
-
-<use Images/q5.png>
+ <use Images/q5.png>
 Package pdftex.def Info: Images/q5.png used on input line 13.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27 <./Images/q4.png>] <Images/q6.png, id=429, 887.315pt x 652.4375pt>
+ [23 <./Images/q4.png>] <Images/q6.png, id=413, 887.315pt x 652.4375pt>
 File: Images/q6.png Graphic file (type png)
 
 <use Images/q6.png>
 Package pdftex.def Info: Images/q6.png used on input line 15.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./Images/q5.png>] <Images/q7.png, id=435, 887.315pt x 652.4375pt>
+ [24 <./Images/q5.png>]
+<Images/q7.png, id=419, 887.315pt x 652.4375pt>
 File: Images/q7.png Graphic file (type png)
-
-<use Images/q7.png>
+ <use Images/q7.png>
 Package pdftex.def Info: Images/q7.png used on input line 17.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <./Images/q6.png>] <Images/q8.png, id=441, 887.315pt x 652.4375pt>
+ [25 <./Images/q6.png>] <Images/q8.png, id=425, 887.315pt x 652.4375pt>
 File: Images/q8.png Graphic file (type png)
 
 <use Images/q8.png>
 Package pdftex.def Info: Images/q8.png used on input line 19.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <./Images/q7.png>] <Images/q9.png, id=447, 887.315pt x 652.4375pt>
+ [26 <./Images/q7.png>]
+<Images/q9.png, id=432, 887.315pt x 652.4375pt>
 File: Images/q9.png Graphic file (type png)
-
-<use Images/q9.png>
+ <use Images/q9.png>
 Package pdftex.def Info: Images/q9.png used on input line 21.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <./Images/q8.png>] <Images/q11.png, id=455, 887.315pt x 652.4375pt>
+ [27 <./Images/q8.png>] <Images/q11.png, id=438, 887.315pt x 652.4375pt>
 File: Images/q11.png Graphic file (type png)
 
 <use Images/q11.png>
 Package pdftex.def Info: Images/q11.png used on input line 23.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./Images/q9.png>] <Images/q12.png, id=461, 887.315pt x 652.4375pt>
+ [28 <./Images/q9.png>]
+<Images/q12.png, id=444, 887.315pt x 652.4375pt>
 File: Images/q12.png Graphic file (type png)
-
-<use Images/q12.png>
+ <use Images/q12.png>
 Package pdftex.def Info: Images/q12.png used on input line 25.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./Images/q11.png>] <Images/q14.png, id=467, 887.315pt x 652.4375pt>
+ [29 <./Images/q11.png>] <Images/q14.png, id=450, 887.315pt x 652.4375pt>
 File: Images/q14.png Graphic file (type png)
 
 <use Images/q14.png>
 Package pdftex.def Info: Images/q14.png used on input line 27.
 (pdftex.def)             Requested size: 443.65642pt x 326.21794pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./Images/q12.png>] [35 <./Images/q14.png>] (./thesis.bbl (./thesis.brf)
+) [30 <./Images/q12.png>] [31 <./Images/q14.png>]
+(./thesis.bbl (./thesis.brf)
 \tf@brf=\write6
 \openout6 = `thesis.brf'.
 
- [36
-
-
-])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+ [32
 
-[37]
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
- (./thesis.aux (./title_page/stardard_page.aux)
-(./0_frontmatter/abstract.aux) (./1_introduction/introduction.aux)
-(./3/researchquestion.aux) (./2/background.aux) (./3/contributions.aux)
-(./4/casestudies.aux) (./5/conclusions.aux) (./9_backmatter/appendices.aux))
+ (./thesis.aux
+(./title_page/stardard_page.aux) (./0_frontmatter/abstract.aux)
+(./1_introduction/introduction.aux) (./3/researchquestion.aux)
+(./2/background.aux) (./3/contributions.aux) (./4/casestudies.aux)
+(./5/conclusions.aux) (./9_backmatter/appendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AD5C22741CF52B185D30863B5261E053;2313.
+(rerunfilecheck)             Checksum: 67EC84BD49922603AD895E919960F125;2376.
 
 
 Package rerunfilecheck Warning: File `thesis.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `thesis.brf':
-(rerunfilecheck)             Before: 28A52E2E943D4E4CAE146D8A7F1D6AAD;1762
-(rerunfilecheck)             After:  353FDE22CF3CA3DE8426E7C94B9336E4;1789.
+(rerunfilecheck)             Before: 962DDBE5BAC58ACC1B7DB2857554F58F;1779
+(rerunfilecheck)             After:  85D757D28827C7181AD38B21C04EFF4E;1762.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 8652 strings out of 493117
- 131101 string characters out of 6135434
- 242943 words of memory out of 5000000
- 11779 multiletter control sequences out of 15000+600000
- 12174 words of font info for 45 fonts, out of 8000000 for 9000
+ 8653 strings out of 493117
+ 131196 string characters out of 6135434
+ 242979 words of memory out of 5000000
+ 11785 multiletter control sequences out of 15000+600000
+ 12482 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,47p,860b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,45p,860b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -921,10 +896,10 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (43 pages, 307203 bytes).
+Output written on thesis.pdf (37 pages, 305606 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
