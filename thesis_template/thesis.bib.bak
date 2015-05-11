@@ -1,48 +1,1167 @@
-% This file was created with JabRef 2.6.
-% Encoding: Cp1257
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
 
-@ARTICLE{bao2004activity,
-  author = {Bao, L. and Intille, S.S.},
-  title = {Activity recognition from user-annotated acceleration data},
-  journal = {Pervasive Computing},
-  year = {2004},
-  pages = {1--17},
-  owner = {Huber_Flores},
-  publisher = {Springer},
-  timestamp = {2011.05.18}
+
+@InProceedings{aalto2004bluetooth,
+  Title                    = {Bluetooth and WAP push based location-aware mobile advertising system},
+  Author                   = {Aalto, Lauri and G{\"o}thlin, Nicklas and Korhonen, Jani and Ojala, Timo},
+  Booktitle                = {Proceedings of the 2nd international conference on Mobile systems, applications, and services},
+  Year                     = {2004},
+  Organization             = {ACM},
+  Pages                    = {49--58},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.10.13}
 }
 
-@INPROCEEDINGS{paper:mcm,
-  author = {H. Flores and S. N. Srirama and C. Paniagua},
-  title = {{A Generic Middleware Framework for Handling Process Intensive Hybrid
-	Cloud Services from Mobiles}},
-  booktitle = {The 9th International Conference on Advances in Mobile Computing
-	\& Multimedia (MoMM-2011)},
-  year = {2011},
-  pages = {87-95},
-  publisher = {ACM},
-  owner = {Huber_Flores},
-  timestamp = {2011.10.06}
+@Misc{amazon:aws,
+  Title                    = {{Amazon - Amazon Web Services}},
+
+  Author                   = {{Amazon, Inc}},
+  HowPublished             = {http://aws.amazon.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
 }
 
-@INPROCEEDINGS{SriramaETAL:MWSP.06,
-  author = {Satish Narayana Srirama and Matthias Jarke and Wolfgang Prinz},
-  title = {Mobile Web Service provisioning},
-  booktitle = {AICT-ICIW '06: Advanced Int. Conf. on Telecommunications and Int.
-	Conf. on Internet and Web Applications and Services},
-  year = {2006},
-  pages = {120},
-  publisher = {IEEE Computer Society},
-  isbn = {0-7695-2522-9},
-  owner = {srirama},
-  timestamp = {2011.02.13}
+@Misc{android:api22,
+  Title                    = {{Android API 2.2}},
+
+  Author                   = {{Android API 2.2}},
+  HowPublished             = {http://developer.android.com/sdk/android-2.2.html},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
 }
 
-@comment{jabref-meta: selector_publisher:}
+@Misc{aosp:project,
+  Title                    = {{Welcome to Android}},
 
-@comment{jabref-meta: selector_author:}
+  Author                   = {{Android Open Source Project}},
+  HowPublished             = {http://source.android.com/},
 
-@comment{jabref-meta: selector_journal:}
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
 
-@comment{jabref-meta: selector_keywords:}
+@Misc{hadoop:hadoop,
+  Title                    = {{Apache Hadoop}},
+
+  Author                   = {{Apache Hadoop}},
+  HowPublished             = {http://hadoop.apache.org/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{iphone:platform,
+  Title                    = {{IPhone}},
+
+  Author                   = {{Apple Inc}},
+  HowPublished             = {http://www.apple.com/iphone/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{notifications:apns,
+  Title                    = {{APNS}},
+
+  Author                   = {{Apple, Inc}},
+  HowPublished             = {http://developer.apple.com/library/ios/},
+
+  Owner                    = {huber},
+  Timestamp                = {2011.07.07}
+}
+
+@Article{paper:cloudcomputing,
+  Title                    = {Above the clouds: A berkeley view of cloud computing},
+  Author                   = {Armbrust, M. and Fox, A. and Griffith, R. and Joseph, A.D. and Katz, R.H. and Konwinski, A. and Lee, G. and Patterson, D.A. and Rabkin, A. and Stoica, I. and others},
+  Journal                  = {EECS Department, University of California, Berkeley, Tech.},
+  Year                     = {2009},
+
+  Owner                    = {Huber_Flores},
+  Publisher                = {Citeseer},
+  Timestamp                = {2011.07.25}
+}
+
+@Article{language:erlang,
+  Title                    = {Concurrent programming in ERLANG},
+  Author                   = {Armstrong, J. and Virding, R. and Wikstrom, C. and Williams, M.},
+  Year                     = {1996},
+
+  Owner                    = {huber},
+  Publisher                = {Citeseer},
+  Timestamp                = {2011.07.14}
+}
+
+@Article{java:java,
+  Title                    = {The Java programming language},
+  Author                   = {Arnold, K. and Gosling, J.},
+  Journal                  = {The Java Series, Reading, MA: Addison-Wesley,| c1996},
+  Year                     = {1996},
+  Volume                   = {1},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@InProceedings{paper:cloudagency,
+  Title                    = {Cloud Agency: A Mobile Agent Based Cloud System},
+  Author                   = {Aversa, R. and Di Martino, B. and Rak, M. and Venticinque, S.},
+  Booktitle                = {Int. Conf. On Complex, Intelligent and Software Intensive Systems},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {132--137},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Article{bao2004activity,
+  Title                    = {Activity recognition from user-annotated acceleration data},
+  Author                   = {Bao, L. and Intille, S.S.},
+  Journal                  = {Pervasive Computing},
+  Year                     = {2004},
+  Pages                    = {1--17},
+
+  Owner                    = {Huber_Flores},
+  Publisher                = {Springer},
+  Timestamp                = {2011.05.18}
+}
+
+@Book{book:grid,
+  Title                    = {{Overview of the Book: Grid Computing--Making the Global Infrastructure a Reality}},
+  Author                   = {Fran Berman and Geoffrey Fox and Anthony J.G. Hey},
+  Publisher                = {Wiley Online Library},
+  Year                     = {2003},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.04.29}
+}
+
+@InProceedings{paper:sapm,
+  Title                    = {Processing of wearable sensor data on the cloud-a step towards scaling of continuous monitoring of health and well-being},
+  Author                   = {Biswas, J. and Maniyeri, J. and Gopalakrishnan, K. and Shue, L. and Eugene, P.J. and Palit, H.N. and Siang, F.Y. and Seng, L.L. and Xiaorong, L.},
+  Booktitle                = {Engineering in Medicine and Biology Society (EMBC), 2010 Annual International Conference of the IEEE},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {3860--3863},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Article{hadoop:filesystem,
+  Title                    = {The hadoop distributed file system: Architecture and design},
+  Author                   = {Borthakur, D.},
+  Journal                  = {Hadoop Website},
+  Year                     = {2007},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Article{paper:socialNetwork,
+  Title                    = {Social Network Sites: Definition, History, and Scholarship},
+  Author                   = {Boyd, D. M. and Ellison, N. B.},
+  Journal                  = {Journal of Computer-Mediated Communication},
+  Year                     = {2008},
+  Pages                    = {210-230},
+  Volume                   = {13},
+
+  Doi                      = {10.1111/j.1083-6101.2007.00393.x},
+  Owner                    = {Huber_Flores},
+  Publisher                = {Journal of Computer-Mediated Communication, 13: 210�230.},
+  Timestamp                = {2011.04.29}
+}
+
+@Book{paper:ws,
+  Title                    = {Web services essentials},
+  Author                   = {Cerami, E. and Laurent, S.S.},
+  Publisher                = {O'Reilly \& Associates, Inc. Sebastopol, USA},
+  Year                     = {2002},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Article{chowdhury2010consumer,
+  Title                    = {Consumer attitude toward mobile advertising in an emerging market: An empirical study},
+  Author                   = {Chowdhury, Humayun Kabir and Parvin, Nargis and Weitenberner, Christian and Becker, Michael},
+  Journal                  = {Marketing},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {206--216},
+  Volume                   = {12},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.10.13}
+}
+
+@InProceedings{chun2011clonecloud,
+  Title                    = {Clonecloud: elastic execution between mobile device and cloud},
+  Author                   = {Chun, Byung-Gon and Ihm, Sunghwan and Maniatis, Petros and Naik, Mayur and Patti, Ashwin},
+  Booktitle                = {Proceedings of the sixth conference on Computer systems},
+  Year                     = {2011},
+  Pages                    = {301--314},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.07}
+}
+
+@Book{book:tcpip,
+  Title                    = {Internetworking with TCP/IP, Volume I, Principles, Protocols, and Architecture},
+  Author                   = {Comer, D.E.},
+  Publisher                = {Prentice hall Englewood Cliffs, NJ},
+  Year                     = {1995},
+  Volume                   = {3},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Article{cowley2008toward,
+  Title                    = {Toward an understanding of flow in video games},
+  Author                   = {Cowley, Ben and Charles, Darryl and Black, Michaela and Hickey, Ray},
+  Journal                  = {Computers in Entertainment (CIE)},
+  Year                     = {2008},
+  Number                   = {2},
+  Pages                    = {20},
+  Volume                   = {6},
+
+  Owner                    = {huber},
+  Publisher                = {ACM},
+  Timestamp                = {2014.10.11}
+}
+
+@InProceedings{cuervo2010maui,
+  Title                    = {MAUI: making smartphones last longer with code offload},
+  Author                   = {Cuervo, Eduardo and Balasubramanian, Aruna and Cho, Dae-ki and Wolman, Alec and Saroiu, Stefan and Chandra, Ranveer and Bahl, Paramvir},
+  Booktitle                = {Proceedings of the 8th international conference on Mobile systems, applications, and services},
+  Year                     = {2010},
+  Organization             = {ACM},
+  Pages                    = {49--62},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.07}
+}
+
+@Misc{cyanogenmod:platform,
+  Title                    = {{A customized aftermarket firmware distribution}},
+
+  Author                   = {{CyanogenMod}},
+  HowPublished             = {http://www.cyanogenmod.org/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{dasein:API,
+  Title                    = {{dasein.org - The Dasein Cloud API}},
+
+  Author                   = {{dasein, Project}},
+  HowPublished             = {http://dasein-cloud.sourceforge.net/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Article{paper:mapreduce,
+  Title                    = {MapReduce: Simplified data processing on large clusters},
+  Author                   = {Dean, J. and Ghemawat, S.},
+  Journal                  = {Communications of the ACM},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {107--113},
+  Volume                   = {51},
+
+  Owner                    = {Huber_Flores},
+  Publisher                = {ACM},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{delta:API,
+  Title                    = {{Delta Cloud - Many Clouds. One API. No problem}},
+
+  Author                   = {{Delta Cloud}},
+  HowPublished             = {http://incubator.apache.org/deltacloud/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Article{dhar2011challenges,
+  Title                    = {Challenges and business models for mobile location-based services and advertising},
+  Author                   = {Dhar, Subhankar and Varshney, Upkar},
+  Journal                  = {Communications of the ACM},
+  Year                     = {2011},
+  Number                   = {5},
+  Pages                    = {121--128},
+  Volume                   = {54},
+
+  Owner                    = {huber},
+  Publisher                = {ACM},
+  Timestamp                = {2014.10.13}
+}
+
+@Misc{dropbox:service,
+  Title                    = {{Dropbox - Simplify your life}},
+
+  Author                   = {{Dropbox, Inc}},
+  HowPublished             = {https://www.dropbox.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@InProceedings{durga2013mobile,
+  Title                    = {Mobile Cloud Media Computing Applications: A Survey},
+  Author                   = {Durga, S and Mohan, S},
+  Booktitle                = {Proceedings of the Fourth International Conference on Signal and Image Processing 2012 (ICSIP 2012)},
+  Year                     = {2013},
+  Organization             = {Springer},
+  Pages                    = {619--628},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.07}
+}
+
+@InProceedings{paper:metrosense,
+  Title                    = {Metrosense project: People-centric sensing at scale},
+  Author                   = {Eisenman, S.B. and Lane, N.D. and Miluzzo, E. and Peterson, R.A. and Ahn, G.S. and Campbell, A.T.},
+  Booktitle                = {First Workshop on World-Sensor-Web (WSW�2006)},
+  Year                     = {2006},
+  Organization             = {Citeseer},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{saas:facedotcom,
+  Title                    = {{Face.com}},
+
+  Author                   = {{Face.com}},
+  HowPublished             = {http://face.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Misc{facebook:mobile,
+  Title                    = {{facebook - mobile}},
+
+  Author                   = {{facebook}},
+  HowPublished             = {http://www.facebook.com/mobile/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@TechReport{paper:http,
+  Title                    = {Hypertext transfer protocol--HTTP/1.1},
+  Author                   = {Fielding, R. and Gettys, J. and Mogul, J. and Frystyk, H. and Masinter, L. and Leach, P. and Berners-Lee, T.},
+  Institution              = {RFC 2616, June},
+  Year                     = {1999},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{flickr:images,
+  Title                    = {{Flickr - Share your photos, watch the world}},
+
+  Author                   = {{Flickr Inc.}},
+  HowPublished             = {http://www.flickr.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Article{flores2014mobile,
+  Title                    = {Mobile cloud middleware},
+  Author                   = {Flores, Huber and Srirama, Satish Narayana},
+  Journal                  = {Journal of Systems and Software},
+  Year                     = {2014},
+  Pages                    = {82--94},
+  Volume                   = {92},
+
+  Owner                    = {huber},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.10.13}
+}
+
+@InProceedings{flores2013adaptive,
+  Title                    = {Adaptive code offloading for mobile cloud applications: Exploiting fuzzy sets and evidence-based learning},
+  Author                   = {Huber Flores and Satish Narayana Srirama},
+  Booktitle                = {Proceeding of the fourth ACM workshop on Mobile cloud computing and services},
+  Year                     = {2013},
+  Organization             = {ACM},
+  Pages                    = {9--16},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.10.14}
+}
+
+@InProceedings{flores2013mobile,
+  Title                    = {Mobile Cloud Messaging Supported by XMPP Primitives},
+  Author                   = {Huber Flores and Satish Narayana Srirama},
+  Booktitle                = {Proceedings of the Fourth ACM Workshop on Mobile Cloud Computing and Services (MCS 2013)},
+  Year                     = {2013},
+  Publisher                = {ACM},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Article{flores2012towards,
+  Title                    = {TOWARDS MOBILE CLOUD APPLICATIONS: OFFLOADING RESOURCE-INTENSIVE TASKS TO HYBRID CLOUDS},
+  Author                   = {Flores, Huber and Srirama, Satish N. and Paniagua, Carlos},
+  Journal                  = {International Journal of Pervasive Computing and Communications},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {344--367},
+  Volume                   = {8},
+
+  Owner                    = {huber},
+  Publisher                = {Emerald Group Publishing Limited},
+  Timestamp                = {2013.03.07}
+}
+
+@InProceedings{flores2011generic,
+  Title                    = {A generic middleware framework for handling process intensive hybrid cloud services from mobiles},
+  Author                   = {Flores, Huber and Srirama, Satish Narayana and Paniagua, Carlos},
+  Booktitle                = {Proceedings of the 9th International Conference on Advances in Mobile Computing and Multimedia},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {87--94},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.12}
+}
+
+@InProceedings{paper:myexperience,
+  Title                    = {MyExperience: a system for in situ tracing and capturing of user feedback on mobile phones},
+  Author                   = {Froehlich, J. and Chen, M.Y. and Consolvo, S. and Harrison, B. and Landay, J.A.},
+  Booktitle                = {Proceedings of the 5th international conference on Mobile systems, applications and services},
+  Year                     = {2007},
+  Organization             = {ACM},
+  Pages                    = {57--70},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@InProceedings{provider:microblog,
+  Title                    = {Micro-blog: sharing and querying content through mobile phones and social participation},
+  Author                   = {Gaonkar, S. and Li, J. and Choudhury, R.R. and Cox, L. and Schmidt, A.},
+  Booktitle                = {Proceeding of the 6th international conference on Mobile systems, applications, and services},
+  Year                     = {2008},
+  Organization             = {ACM},
+  Pages                    = {174--186},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@InProceedings{Geller2014,
+  Title                    = {how Do You feel? Your computer knows},
+  Author                   = {Tom Geller},
+  Booktitle                = {communications of the acm.},
+  Year                     = {2014},
+  Volume                   = {57},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.09.22}
+}
+
+@InProceedings{gilleade2004using,
+  Title                    = {Using frustration in the design of adaptive videogames},
+  Author                   = {Gilleade, Kiel M and Dix, Alan},
+  Booktitle                = {Proceedings of the 2004 ACM SIGCHI International Conference on Advances in computer entertainment technology},
+  Year                     = {2004},
+  Organization             = {ACM},
+  Pages                    = {228--232},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.10.12}
+}
+
+@Misc{android:platform,
+  Title                    = {{Android}},
+
+  Author                   = {{Google Inc}},
+  HowPublished             = {http://www.android.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{picasa:images,
+  Title                    = {{Picasa - web albums}},
+
+  Author                   = {{Google Inc}},
+  HowPublished             = {https://picasaweb.google.com/home},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:docsmobile,
+  Title                    = {{Google Docs}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {docs.google.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:googlecalendar,
+  Title                    = {{Google Calendar}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {calendar.google.com},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{google:googlemaps,
+  Title                    = {{Google Maps}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {http://maps.google.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:notifications,
+  Title                    = {{Google code labs - Android Cloud to Device Messaging Framework}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {http://code.google.com/intl/es-ES/android/c2dm/index.html},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:sync,
+  Title                    = {{Google sync}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {www.google.com/mobile/sync/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:appengine,
+  Title                    = {{Google Code - google application engine}},
+
+  Author                   = {{Google Inc.}},
+  HowPublished             = {http://code.google.com/appengine/},
+  Year                     = {2011},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{google:gdata,
+  Title                    = {{Google Data Protocol}},
+
+  Author                   = {{Google Inc.
+}},
+  HowPublished             = {http://code.google.com/apis/gdata/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Misc{notifications:ac2dm,
+  Title                    = {{AC2DM}},
+
+  Author                   = {{Google, Inc}},
+  HowPublished             = {http://code.google.com/android/c2dm/index.html},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Misc{notifications:gcm,
+  Title                    = {{GCM - Google Cloud Messaging for Android}},
+
+  Author                   = {{Google, Inc}},
+  HowPublished             = {http://developer.android.com/guide/google/gcm/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@InProceedings{gordon2012comet,
+  Title                    = {COMET: code offload by migrating execution transparently},
+  Author                   = {Gordon, Mark S and Jamshidi, D Anoushe and Mahlke, Scott and Mao, Z Morley and Chen, Xu},
+  Booktitle                = {Proceedings of the 10th USENIX conference on Operating Systems Design and Implementation},
+  Year                     = {2012},
+  Organization             = {USENIX},
+  Pages                    = {93--106},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.12}
+}
+
+@InProceedings{grace2012unsafe,
+  Title                    = {Unsafe exposure analysis of mobile in-app advertisements},
+  Author                   = {Grace, Michael C and Zhou, Wu and Jiang, Xuxian and Sadeghi, Ahmad-Reza},
+  Booktitle                = {Proceedings of the fifth ACM conference on Security and Privacy in Wireless and Mobile Networks},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {101--112},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.10.13}
+}
+
+@Misc{htc:arena,
+  Title                    = {{Gsm Arena - HTC Desire}},
+
+  Author                   = {{Gsm Arena}},
+  HowPublished             = {http://www.gsmarena.com/htc{\_}desire-3077.php},
+  Year                     = {2011},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Article{gu2004adaptive,
+  Title                    = {Adaptive offloading for pervasive computing},
+  Author                   = {Xiaohui Gu and Klara Nahrstedt and Alan Messer and Ira Greenberg and Dejan Milojicic},
+  Journal                  = {Pervasive Computing, IEEE},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {66--73},
+  Volume                   = {3},
+
+  Owner                    = {huber},
+  Publisher                = {IEEE},
+  Timestamp                = {2013.03.17}
+}
+
+@InProceedings{haghirian2005increasing,
+  Title                    = {Increasing advertising value of mobile marketing-an empirical study of antecedents},
+  Author                   = {Haghirian, Parissa and Madlberger, Maria and Tanuskova, Andrea},
+  Booktitle                = {System Sciences, 2005. HICSS'05. Proceedings of the 38th Annual Hawaii International Conference On},
+  Year                     = {2005},
+  Organization             = {IEEE},
+  Pages                    = {32c--32c},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.09.22}
+}
+
+@Book{book:syncml,
+  Title                    = {SyncML: Synchronizing and managing your mobile data},
+  Author                   = {Hansmann, U. and Mettala, R.M. and Purakayastha, A. and Thompson, P.},
+  Publisher                = {Prentice Hall},
+  Year                     = {2003},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{tool:haproxy,
+  Title                    = {{The Reliable, High Performance TCP/HTTP Load Balancer}},
+
+  Author                   = {{HAProxy}},
+  HowPublished             = {http://haproxy.1wt.eu/},
+
+  Owner                    = {huber},
+  Timestamp                = {2011.07.07}
+}
+
+@InProceedings{hristova2004ad,
+  Title                    = {Ad-me: wireless advertising adapted to the user location, device and emotions},
+  Author                   = {Hristova, Nataliya and O'Hare, Gregory MP},
+  Booktitle                = {System Sciences, 2004. Proceedings of the 37th Annual Hawaii International Conference on},
+  Year                     = {2004},
+  Organization             = {IEEE},
+  Pages                    = {10--pp},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.09.22}
+}
+
+@Misc{vendors:htc,
+  Title                    = {{HTC Inc}},
+
+  Author                   = {{HTC Inc.}},
+  HowPublished             = {http://www.htc.com/www/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{jclouds:API,
+  Title                    = {{jclouds - multi cloud library }},
+
+  Author                   = {{jclouds}},
+  HowPublished             = {http://code.google.com/p/jclouds/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{jets3t:API,
+  Title                    = {{jetS3t - An open source Java toolkit for Amazon S3 and CloudFront}},
+
+  Author                   = {{jets3t}},
+  HowPublished             = {http://jets3t.s3.amazonaws.com/toolkit/guide.html},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{text:json,
+  Title                    = {{JSON}},
+
+  Author                   = {{JSON}},
+  HowPublished             = {http://www.json.org/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Book{book:gps,
+  Title                    = {Understanding GPS: principles and applications},
+  Author                   = {Kaplan, E.D. and Hegarty, C.J.},
+  Publisher                = {Artech House Publishers},
+  Year                     = {2006},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Book{klir1995fuzzy,
+  Title                    = {Fuzzy sets and fuzzy logic},
+  Author                   = {Klir, George J and Yuan, Bo},
+  Publisher                = {Prentice Hall New Jersey},
+  Year                     = {1995},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.23}
+}
+
+@InProceedings{kosta2012thinkair,
+  Title                    = {Thinkair: Dynamic resource allocation and parallel execution in the cloud for mobile code offloading},
+  Author                   = {Kosta, Sokol and Aucinas, Andrius and Hui, Pan and Mortier, Richard and Zhang, Xinwen},
+  Booktitle                = {INFOCOM, 2012 Proceedings IEEE},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {945--953},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.12}
+}
+
+@InProceedings{5489731,
+  Title                    = {Mobile Community Cloud Computing: Emerges and Evolves},
+  Author                   = {Kovachev, Dejan and Renzel, Dominik and Klamma, Ralf and Cao, Yiwei},
+  Booktitle                = {Mobile Data Management (MDM), 2010 Eleventh International Conference on},
+  Year                     = {2010},
+  Month                    = may,
+  Pages                    = {393 -395},
+
+  Doi                      = {10.1109/MDM.2010.78}
+}
+
+@InProceedings{KovachevETAL:MCS.10,
+  Title                    = {Mobile Community Cloud Computing: Emerges and Evolves},
+  Author                   = {Kovachev, Dejan and Renzel, Dominik and Klamma, Ralf and Cao, Yiwei},
+  Booktitle                = {11th Int. Conf. On Mobile Data Management (MDM)},
+  Year                     = {2010},
+  Pages                    = {393 -395},
+
+  Doi                      = {10.1109/MDM.2010.78},
+  Owner                    = {huber},
+  Timestamp                = {2011.07.07}
+}
+
+@Article{kumar2010cloud,
+  Title                    = {Cloud computing for mobile users: Can offloading computation save energy?},
+  Author                   = {Kumar, Karthik and Lu, Yung-Hsiang},
+  Journal                  = {Computer},
+  Year                     = {2010},
+  Number                   = {4},
+  Pages                    = {51--56},
+  Volume                   = {43},
+
+  Owner                    = {huber},
+  Publisher                = {IEEE},
+  Timestamp                = {2013.03.07}
+}
+
+@InProceedings{leontiadis2012don,
+  Title                    = {Don't kill my ads!: balancing privacy in an ad-supported mobile application market},
+  Author                   = {Leontiadis, Ilias and Efstratiou, Christos and Picone, Marco and Mascolo, Cecilia},
+  Booktitle                = {Proceedings of the Twelfth Workshop on Mobile Computing Systems \& Applications},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {2},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.09.21}
+}
+
+@InProceedings{likamwa2013moodscope,
+  Title                    = {Moodscope: building a mood sensor from smartphone usage patterns},
+  Author                   = {LiKamWa, Robert and Liu, Yunxin and Lane, Nicholas D and Zhong, Lin},
+  Booktitle                = {Proceeding of the 11th annual international conference on Mobile systems, applications, and services},
+  Year                     = {2013},
+  Organization             = {ACM},
+  Pages                    = {389--402},
+
+  Owner                    = {huber},
+  Timestamp                = {2014.08.27}
+}
+
+@Misc{provider:memotoo,
+  Title                    = {{Memotoo.com}},
+
+  Author                   = {{Memotoo Inc.}},
+  HowPublished             = {http://www.memotoo.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Misc{provider:mobilcaldotnet,
+  Title                    = {{Mobical.net}},
+
+  Author                   = {{Mobical Inc.}},
+  HowPublished             = {http://mobical.net},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@InProceedings{paper:peoplenet,
+  Title                    = {Peoplenet: engineering a wireless virtual social network},
+  Author                   = {Motani, M. and Srinivasan, V. and Nuggehalli, P.S.},
+  Booktitle                = {Proceedings of the 11th annual international conference on Mobile computing and networking, August},
+  Organization             = {Citeseer},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Misc{agora,
+  Title                    = {Agora: mobile cloud-computing middleware},
+
+  Author                   = {Priya Narasimhan},
+  HowPublished             = {http://www.cylab.cmu.edu/research/projects/2010/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.04.29}
+}
+
+@Misc{vendors:nokia,
+  Title                    = {{Nokia}},
+
+  Author                   = {{Nokia Inc.}},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15},
+  Url                      = {http://www.nokia.com/}
+}
+
+@InProceedings{provider:eucalyptus,
+  Title                    = {{The Eucalyptus Open-source Cloud-computing System}},
+  Author                   = {Daniel Nurmi and Rich Wolski and Chris Grzegorczyk Graziano Obertelli and Sunil Soman and Lamia Youseff and Dmitrii Zagorodnov},
+  Year                     = {2011},
+
+  HowPublished             = {Online},
+  Owner                    = {srirama},
+  Timestamp                = {2011.02.14}
+}
+
+@InProceedings{paper:aampl,
+  Title                    = {Aampl: Accelerometer augmented mobile phone localization},
+  Author                   = {Ofstad, A. and Nicholas, E. and Szcodronski, R. and Choudhury, R.R.},
+  Booktitle                = {Proceedings of the first ACM international workshop on Mobile entity localization and tracking in GPS-less environments},
+  Year                     = {2008},
+  Organization             = {ACM},
+  Pages                    = {13--18},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@InProceedings{paper:funambol,
+  Title                    = {Open source and business model innovation. The Funambol case},
+  Author                   = {Onetti, A. and Capobianco, F.},
+  Booktitle                = {Int. Conf. On OS Systems Genova, 11th-15th July},
+  Year                     = {2005},
+  Pages                    = {224--227},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Book{book:sqlite,
+  Title                    = {The definitive guide to SQLite},
+  Author                   = {Owens, M.},
+  Publisher                = {Apress},
+  Year                     = {2006},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Book{Picard:1997:AC:265013,
+  Title                    = {Affective Computing},
+  Author                   = {Picard, Rosalind W.},
+  Publisher                = {MIT Press},
+  Year                     = {1997},
+
+  Address                  = {Cambridge, MA, USA},
+
+  ISBN                     = {0-262-16170-2},
+  Owner                    = {huber},
+  Timestamp                = {2014.09.22}
+}
+
+@InProceedings{ra2011odessa,
+  Title                    = {Odessa: enabling interactive perception applications on mobile devices},
+  Author                   = {Ra, Moo-Ryong and Sheth, Anmol and Mummert, Lily and Pillai, Padmanabhan and Wetherall, David and Govindan, Ramesh},
+  Booktitle                = {Proceedings of the 9th international conference on Mobile systems, applications, and services},
+  Year                     = {2011},
+  Organization             = {ACM},
+  Pages                    = {43--56},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.03.12}
+}
+
+@Misc{provider:rseven,
+  Title                    = {{Rseven.net}},
+
+  Author                   = {{Rseven Inc.}},
+  HowPublished             = {https://www.rseven.com/index.jsp},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.16}
+}
+
+@Book{book:xmpp,
+  Title                    = {XMPP: the definitive guide : building real-time applications with Jabber},
+  Author                   = {Peter Saint-Andr� and Kevin Smith and Remko Troncon},
+  Publisher                = {O'Reilly Media},
+  Year                     = {2009},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Misc{vendors:samsung,
+  Title                    = {{Samsung}},
+
+  Author                   = {{Samsung Inc.}},
+  HowPublished             = {http://www.samsung.com/us/mobile/cell-phones},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.05.15}
+}
+
+@Article{paper:placeits,
+  Title                    = {Place-its: A study of location-based reminders on mobile phones},
+  Author                   = {Sohn, T. and Li, K.A. and Lee, G. and Smith, I. and Scott, J. and Griswold, W.G.},
+  Journal                  = {UbiComp 2005: Ubiquitous Computing},
+  Year                     = {2005},
+  Pages                    = {232--250},
+
+  __markedentry            = {[Huber_Flores]},
+  Owner                    = {Huber_Flores},
+  Publisher                = {Springer},
+  Timestamp                = {2011.05.15}
+}
+
+@InProceedings{SriramaETAL:SciCloud.10,
+  Title                    = {{SciCloud: Scientific Computing on the Cloud}},
+  Author                   = {Satish Narayana Srirama and Oleg Batrashev and Eero Vainikko},
+  Booktitle                = {10th IEEE/ACM Int. Sym.On Cluster, Cloud and Grid Computing(CCGrid 2010)},
+  Year                     = {2010},
+  Pages                    = {579},
+
+  Owner                    = {srirama},
+  Timestamp                = {2011.02.13}
+}
+
+@InProceedings{paper:zompopo,
+  Title                    = {{Zompopo: Mobile Calendar Prediction based on Human Activities Recognition using the Accelerometer and Cloud Services}},
+  Author                   = {Satish Narayana Srirama and Huber Flores and Carlos Paniagua},
+  Booktitle                = {5th Int. Conf. On Next Generation Mobile Applications, Services and Technologies (NGMAST)},
+  Year                     = {2011},
+  Pages                    = {63-69.},
+  Publisher                = {IEEE CS},
+
+  Owner                    = {huber},
+  Timestamp                = {2011.07.12}
+}
+
+@Article{SriramaJarke:MHESI.09,
+  Title                    = {Mobile Hosts in enterprise service integration},
+  Author                   = {Satish Narayana Srirama and Matthias Jarke},
+  Journal                  = {Int. Journal of Web Engineering and Technology (IJWET)},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {187--213},
+  Volume                   = {5},
+
+  Owner                    = {srirama},
+  Timestamp                = {2011.02.13}
+}
+
+@InProceedings{SriramaETAL:MWSMF.07,
+  Title                    = {Mobile Web Services Mediation Framework},
+  Author                   = {Satish Narayana Srirama and Matthias Jarke and Wolfgang Prinz},
+  Booktitle                = {Middleware for Service Oriented Computing (MW4SOC) Workshop @ 8th Int. Middleware Conf. 2007},
+  Year                     = {2007},
+  Publisher                = {ACM Press},
+
+  Owner                    = {srirama},
+  Timestamp                = {2011.02.13}
+}
+
+@InProceedings{SriramaETAL:MWSP.06,
+  Title                    = {Mobile Web Service provisioning},
+  Author                   = {Satish Narayana Srirama and Matthias Jarke and Wolfgang Prinz},
+  Booktitle                = {AICT-ICIW '06: Advanced Int. Conf. on Telecommunications and Int. Conf. on Internet and Web Applications and Services},
+  Year                     = {2006},
+  Pages                    = {120},
+  Publisher                = {IEEE Computer Society},
+
+  ISBN                     = {0-7695-2522-9},
+  Owner                    = {srirama},
+  Timestamp                = {2011.02.13}
+}
+
+@Article{srirama2012social,
+  Title                    = {Social group formation with mobile cloud services},
+  Author                   = {Srirama, Satish Narayana and Paniagua, Carlos and Flores, Huber},
+  Journal                  = {Service Oriented Computing and Applications},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {351--362},
+  Volume                   = {6},
+
+  Owner                    = {huber},
+  Publisher                = {Springer},
+  Timestamp                = {2013.03.16}
+}
+
+@Article{paper:croudstag,
+  Title                    = {{CroudSTag: Social Group Formation with Facial Recognition and Mobile Cloud Services}},
+  Author                   = {Satish Narayana Srirama and Carlos Paniagua and Huber Flores},
+  Journal                  = {Procedia Computer Science},
+  Year                     = {2011},
+  Pages                    = {633--640},
+  Volume                   = {5},
+
+  Owner                    = {huber},
+  Publisher                = {Elsevier},
+  Timestamp                = {2011.09.24}
+}
+
+@Article{tsang2004consumer,
+  Title                    = {Consumer attitudes toward mobile advertising: An empirical study},
+  Author                   = {Tsang, Melody M and Ho, Shu-Chun and Liang, Ting-Peng},
+  Journal                  = {International Journal of Electronic Commerce},
+  Year                     = {2004},
+  Number                   = {3},
+  Pages                    = {65--78},
+  Volume                   = {8},
+
+  Owner                    = {huber},
+  Publisher                = {ME Sharpe},
+  Timestamp                = {2014.09.22}
+}
+
+@Misc{tool:tsung,
+  Title                    = {{A distributed load testing tool}},
+
+  Author                   = {{Tsung}},
+  HowPublished             = {http://tsung.erlang-projects.org/},
+
+  Owner                    = {huber},
+  Timestamp                = {2011.07.11}
+}
+
+@Misc{twitter:mobile,
+  Title                    = {{Twitter - mobile}},
+
+  Author                   = {{Twitter Inc.}},
+  HowPublished             = {http://mobile.twitter.com/},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14},
+  Url                      = {http://mobile.twitter.com/}
+}
+
+@Misc{typica:API,
+  Title                    = {{typica - A Java client library for a variety of Amazon Web Services}},
+
+  Author                   = {{typica}},
+  HowPublished             = {http://code.google.com/p/typica/},
+  Note                     = {URL last visited on 19th Oct 2010},
+  Year                     = {2011},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@InProceedings{verbelen2012cloudlets,
+  Title                    = {Cloudlets: Bringing the cloud to the mobile user},
+  Author                   = {Verbelen, Tim and Simoens, Pieter and De Turck, Filip and Dhoedt, Bart},
+  Booktitle                = {Proceedings of the third ACM workshop on Mobile cloud computing and services},
+  Year                     = {2012},
+  Organization             = {ACM},
+  Pages                    = {29--36},
+
+  Owner                    = {huber},
+  Timestamp                = {2013.04.27}
+}
+
+@InProceedings{mccm,
+  Title                    = {{SOA}\textquoteleft s Last Mile Connecting Smartphones to the Service Cloud},
+  Author                   = {Qian Wang and Ralph Deters},
+  Booktitle                = {IEEE Int. Conf.On Cloud Computing},
+  Year                     = {2009},
+  Pages                    = {80-87},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.04.29}
+}
+
+@Misc{zoho:mobile,
+  Title                    = {{Zoho - Mobile}},
+
+  Author                   = {{Zoho Inc.}},
+  HowPublished             = {https://m.zoho.com/f},
+
+  Owner                    = {Huber_Flores},
+  Timestamp                = {2011.02.14}
+}
+
+@Other{image:banner_ad,
+  Owner                    = {Jaan},
+  Timestamp                = {2015.05.11},
+  Url                      = {http://2.bp.blogspot.com/-23YwcQCTuDk/TvEP53kzv4I/AAAAAAAAAFU/dIN9DY-ufm8/s1600/Screen\%2Bshot\%2B2011-12-20\%2Bat\%2B2.43.51\%2BPM.png}
+}
+
+@Other{image:interstitial_ad,
+  Owner                    = {Jaan},
+  Timestamp                = {2015.05.11},
+  Url                      = {http://i.stack.imgur.com/DnVYL.png}
+}
 
