@@ -100,65 +100,36 @@
 % Parts of the thesis are included below. Rename the files as required.
 % But take care that the paths match. You can also change the order of appearance by moving the include commands.
 
-\include{1_introduction/introduction}		% background information
-\include{3/researchquestion}					% problem statement
-\include{2/background}	        				% state of the art
-\include{3/contributions}						% how the solution solved the problem - your solution
-\include{4/casestudies}							% functional scenario
-\include{5/conclusions}							% final conclusions
-%\include{6/relatedwork}	                	% related work
-%\include{6/futureresearch}					% future research directions
+\include{1_introduction/introduction}	% background information
+\include{3/researchquestion}			% problem statement
+\include{2/background}	        		% state of the art
+\include{3/contributions}				% how the solution solved the problem - your solution
+\include{4/casestudies}					% functional scenario
+\include{5/conclusions}					% final conclusions
+%\include{6/relatedwork}	            % related work
+%\include{6/futureresearch}				% future research directions
 
 % --------------------------------------------------------------
 %:                  BACK MATTER: appendices, refs,..
 % --------------------------------------------------------------
 
-% the back matter: appendix and references close the thesis
-
-%: ----------------------- appendices ------------------------
+%: ----------------------- appendices --------------------------
 
 \include{9_backmatter/appendices}
 
 %: ----------------------- bibliography ------------------------
 
-% The section below defines how references are listed and formatted
-% The default below is 2 columns, small font, complete author names.
-% Entries are also linked back to the page number in the text and to external URL if provided in the BibTex file.
-
-% PhDbiblio-url2 = names small caps, title bold & hyperlinked, link to page 
-\begin{multicols}{2} % \begin{multicols}{ # columns}[ header text][ space]
-\begin{tiny} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
-
-%\bibliographystyle{Latex/Classes/PhDbiblio-url2} % Title is link if provided
-%\renewcommand{\bibname}{References} % changes the header; default: Bibliography
-
-%\bibliography{9_backmatter/references} % adjust this to fit your BibTex file
-
+\begin{multicols}{2}
+\begin{tiny}
 
 \bibliographystyle{elsarticle-num}	% references style
-\bibliography{thesis}						% references bibtex file  - utilize JabRef
+\bibliography{thesis}				% references bibtex file  - utilize JabRef
 
 \end{tiny}
 \end{multicols}
 
-% --------------------------------------------------------------
-% Various bibliography styles exit. Replace above style as desired.
+%: ----------------------- licence -----------------------------
 
-% in-text refs: (1) (1; 2)
-% ref list: alphabetical; author(s) in small caps; initials last name; page(s)
-%\bibliographystyle{Latex/Classes/PhDbiblio-case} % title forced lower case
-%\bibliographystyle{Latex/Classes/PhDbiblio-bold} % title as in bibtex but bold
-%\bibliographystyle{Latex/Classes/PhDbiblio-url} % bold + www link if provided
-
-%\bibliographystyle{Latex/Classes/jmb} % calls style file jmb.bst
-% in-text refs: author (year) without brackets
-% ref list: alphabetical; author(s) in normal font; last name, initials; page(s)
-
-%\bibliographystyle{plainnat} % calls style file plainnat.bst
-% in-text refs: author (year) without brackets
-% (this works with package natbib)
-
-
-% --------------------------------------------------------------
+\include{9_backmatter/licence}
 
 \end{document}
