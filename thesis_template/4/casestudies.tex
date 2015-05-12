@@ -28,47 +28,116 @@ They were asked to answer the first ten questions. Then they were asked to read 
 
 \section{Participants' Opinion on Traditional Mobile Advertising}
 
-The participants claimed to be using their mobile devices anywhere between less than 30 minutes and more than 3 hours, however more than half of the participants use their mobile device 30 minutes to 1 hour each day. [Appendix B]
+The participants claimed to be using their mobile devices anywhere between less than 30 minutes and more than 3 hours, however more than half of the participants use their mobile device 30 minutes to 1 hour each day as seen on Figure 5.1.
 
 \begin{figure}
-\begin{tikzpicture}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
 
-\begin{axis}[%
-view={0}{90},
-width=\pdfw,
-height=\pdfh,
+\begin{axis}[
+style={font=\tiny},
+ybar,
 scale only axis,
-xmin=1, xmax=11,
-xlabel={Specimen ID},
-xtick=data,
-xticklabels={T0,T1B,T2B,T2A,T1A,T3A,T4A,T3B,T4B},
-xmajorgrids,
-ymin=0, ymax=15,
-ylabel={Percentage Difference},
-ymajorgrids,
-legend style={at={(0.97,0.03)},anchor=south east,nodes=right}]
-
-\addplot coordinates{ (2,1) (3,2) (4,3) (5,4) (6,5) (7,6) (8,7) (9,8) (10,9) };
-
-\addlegendentry{(+) Direction};
-
-\addplot [
-color=black,
-solid,
-line width=1.0pt,
-forget plot
+xmin=0, xmax=20,
+xticklabels={, ,$<30min$, ,$30min-1h$, ,$1-2h$, ,$2-3h$, ,$>3h$},
+ymin=0, ymax=10,
 ]
-coordinates{
- (1,0)(11,0) 
-};
+
+\addplot coordinates{ (2,6) (6,8) (10,7) (14,2) (18,2)};
+
 \end{axis}
 \end{tikzpicture}
-\caption{Participant's mobile device usage}
+\caption{Participants' mobile device usage}
+\end{center}
 \end{figure}
 
-%The average rating the participants gave to the amount of mobile advertisements bothering them is 3.72 on a scale from 1 to 5, 1 meaning not at all and 5 meaning very much. None of the participants claimed that mobile advertisements did not bother them at all. [Appendix C] Many reasons were pointed out why advertisements are bothersome. The main ones being that the advertisements are distracting from using the application (flashing, sounds), take up a lot of screen space and are sometimes difficult or even impossible to get rid of.
+The average rating the participants gave to the amount of mobile advertisements bothering them is 3.72 on a scale from 1 to 5, 1 meaning not at all and 5 meaning very much. None of the participants claimed that mobile advertisements did not bother them at all as seen on Figure 5.2. Many reasons were pointed out why advertisements are bothersome. The main ones being that the advertisements are distracting from using the application (flashing, sounds), take up a lot of screen space and are sometimes difficult or even impossible to get rid of.
 
-Furthermore, 84\% of the participants claim to have uninstalled a mobile application just because of the intrusiveness of it's edvertisements [Appendix D], while only 28\% claim to have looked up a product or service because of an advertisement in an application [Appendix E] and only 8\% to have actually payed for a product or service they saw in an advertisement. [Appendix F]
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,0) (6,3) (10,8) (14,7) (18,7)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{How much participants are bothered by advertisements in mobile applications}
+\end{center}
+\end{figure}
+
+Furthermore, 84\% of the participants claim to have uninstalled a mobile application just because of the intrusiveness of it's advertisements as seen on Figure 5.3, while only 28\% claim to have looked up a product or service because of an advertisement in an application as seen on Figure 5.4 and only 8\% to have actually paid for a product or service they saw in an advertisement as seen on Figure 5.5.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=3.5,
+xticklabels={, , ,$yes$, , ,$no$},
+ymin=0, ymax=25,
+]
+
+\addplot coordinates{ (1,21) (2.5,4) };
+
+\end{axis}
+\end{tikzpicture}
+\caption{How many participants have uninstalled an application because of intrusive advertisements}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=3.5,
+xticklabels={, , ,$yes$, , ,$no$},
+ymin=0, ymax=25,
+]
+
+\addplot coordinates{ (1,7) (2.5,18) };
+
+\end{axis}
+\end{tikzpicture}
+\caption{How many participants have looked up a product or a service because of a mobile advertisement}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=3.5,
+xticklabels={, , ,$yes$, , ,$no$},
+ymin=0, ymax=25,
+]
+
+\addplot coordinates{ (1,2) (2.5,23) };
+
+\end{axis}
+\end{tikzpicture}
+\caption{How many participants have paid for a product or a service because of a mobile advertisement}
+\end{center}
+\end{figure}
 
 This shows how ineffective traditional advertising methods are and that people are quite easily willing to stop using an application that has intrusive adverts. Traditional advertising methods are often quantity-over-quality and developers can easily damage their reputation without significant gain.
 
@@ -76,7 +145,49 @@ This shows how ineffective traditional advertising methods are and that people a
 
 The participants were also asked questions about their willingness to use functionality that this library provides without having used it before, to see whether they would be willing to adapt to dynamic advertisements in the applications they use.
 
-All the participants thought they would get rid of an advertisement as soon as it appeared at least half the time [Appendix G], but 44\% of participants thought they would move an advertisement for later viewing at least some of the times and 24\% that they would want to view an advertisement later about half the times. [Appendix H]
+All the participants thought they would get rid of an advertisement as soon as it appeared at least half the time as seen on Figure 5.6, but 44\% of participants thought they would move an advertisement for later viewing at least some of the times and 24\% that they would want to view an advertisement later about half the times as seen on Figure 5.7.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,0) (6,0) (10,6) (14,12) (18,7)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{How likely participants would move an advertisement for later viewing}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,8) (6,11) (10,6) (14,0) (18,0)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{How likely participants would get rid of an advertisement as soon as it appeared}
+\end{center}
+\end{figure}
 
 When asked how they themselves think advertisements should be displayed in applications to make them less disruptive, the most common answers were that the advertisements should be smaller, blend in with the surroundings more and not be on top of content.
 
@@ -84,11 +195,74 @@ As seen from this feedback, the users would, at least some of the time, be willi
 
 \section{Participants' Opinion of Dynamic Advertisements}
 
-In terms of intrusiveness, all participants thought that the proposed method is less or just as intrusive as the classical method of advertisement delivery. 24\% thought that it is considerably less intrusive and 36\% that is just as intrusive. [Appendix J]
+In terms of intrusiveness, all participants thought that the proposed method is less or just as intrusive as the classical method of advertisement delivery. 24\% thought that it is considerably less intrusive and 36\% that is just as intrusive as seen on Figure 5.8.
 
-48\% of participants were just as interested in the advertised product as they would have been with the classical advertising method. 40\% were a little bit more interested and the product. 12\% were considerably more interested.[Appendix K]
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
 
-The general rating participants gave to the method of advertisement delivery is 3.96 on a scale from 1 to 5. [Appendix L]
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,0) (6,0) (10,9) (14,10) (18,6)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Intrusiveness comparison}
+\end{center}
+\end{figure}
+
+48\% of participants were just as interested in the advertised product as they would have been with the classical advertising method. 40\% were a little bit more interested and the product. 12\% were considerably more interested as seen on Figure 5.9.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,0) (6,0) (10,12) (14,10) (18,3)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Interest comparison}
+\end{center}
+\end{figure}
+
+The general rating participants gave to the method of advertisement delivery is 3.96 on a scale from 1 to 5 as seen on Figure 5.10.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=1.1]
+
+\begin{axis}[
+style={font=\tiny},
+ybar,
+scale only axis,
+xmin=0, xmax=20,
+xticklabels={, ,$1$, ,$2$, ,$3$, ,$4$, ,$5$},
+ymin=0, ymax=10,
+]
+
+\addplot coordinates{ (2,0) (6,0) (10,2) (14,22) (18,1)};
+
+\end{axis}
+\end{tikzpicture}
+\caption{Rating}
+\end{center}
+\end{figure}
 
 \section{Summary}
 

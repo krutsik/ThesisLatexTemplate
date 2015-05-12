@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title_page/stardard_page.aux
 A level-1 auxiliary file: 0_frontmatter/abstract.aux
 A level-1 auxiliary file: 1_introduction/introduction.aux
@@ -10,41 +12,49 @@ A level-1 auxiliary file: 5/conclusions.aux
 A level-1 auxiliary file: 9_backmatter/appendices.aux
 The style file: elsarticle-num.bst
 Database file #1: thesis.bib
-Warning--entry type for "image:banner_ad" isn't style-file defined
---line 1156 of file thesis.bib
-Warning--entry type for "image:interstitial_ad" isn't style-file defined
---line 1162 of file thesis.bib
-Warning--I didn't find a database entry for "mmarshall-top10"
-Warning--I didn't find a database entry for "crunchbase-admob"
-Warning--I didn't find a database entry for "emarketer-google"
-Warning--I didn't find a database entry for "google-admob"
-Warning--I didn't find a database entry for "admob-adsense"
-Warning--I didn't find a database entry for "admob-sdk"
-Warning--I didn't find a database entry for "admob-banner"
-Warning--I didn't find a database entry for "admob-interstitial"
-Warning--I didn't find a database entry for "crunchbase-millenial"
-Warning--I didn't find a database entry for "millenial-sdk"
-Warning--I didn't find a database entry for "millenial-android"
-Warning--I didn't find a database entry for "crunchbase-quattro"
-Warning--I didn't find a database entry for "forbes-iad"
-Warning--I didn't find a database entry for "forbes-iad2"
-Warning--I didn't find a database entry for "iad-tutorial"
-Warning--I didn't find a database entry for "crunchbase-flurry"
-Warning--I didn't find a database entry for "maps-yankeegroup"
-Warning--I didn't find a database entry for "crunchbase-inmobi"
-Warning--I didn't find a database entry for "inmobi"
-Warning--I didn't find a database entry for "inmobi-monetize"
-Warning--I didn't find a database entry for "inmobi-sdk"
-Warning--I didn't find a database entry for "crunchbase-chartboost"
-Warning--I didn't find a database entry for "chartboost"
-Warning--I didn't find a database entry for "hongikiat-monetize"
-Warning--I didn't find a database entry for "crunchbase-mopub"
-Warning--I didn't find a database entry for "mopub-marketplace"
-Warning--I didn't find a database entry for "mopub-resources"
-Warning--I didn't find a database entry for "crunchbase-amobee"
-Warning--I didn't find a database entry for "dockers"
-Warning--I didn't find a database entry for "adtile"
-Warning--I didn't find a database entry for "gesture-ads"
-Warning--all relevant fields are empty in image:banner_ad
-Warning--all relevant fields are empty in image:interstitial_ad
-(There were 35 warnings)
+Warning--entry type for "inmobi-monetize" isn't style-file defined
+--line 11 of file thesis.bib
+Warning--empty title in image:banner_ad
+Warning--empty title in image:interstitial_ad
+You've used 36 entries,
+            2937 wiz_defined-function locations,
+            800 strings with 9199 characters,
+and the built_in function-call counts, 6314 in all, are:
+= -- 831
+> -- 72
+< -- 0
++ -- 48
+- -- 12
+* -- 391
+:= -- 969
+add.period$ -- 44
+call.type$ -- 36
+change.case$ -- 34
+chr.to.int$ -- 0
+cite$ -- 38
+duplicate$ -- 199
+empty$ -- 686
+format.name$ -- 13
+if$ -- 1857
+int.to.chr$ -- 0
+int.to.str$ -- 36
+missing$ -- 1
+newline$ -- 125
+num.names$ -- 9
+pop$ -- 160
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 447
+stack$ -- 0
+substring$ -- 0
+swap$ -- 42
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 9
+width$ -- 38
+write$ -- 214
+(There were 3 warnings)
