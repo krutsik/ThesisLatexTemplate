@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: title_page/stardard_page.aux
 A level-1 auxiliary file: 0_frontmatter/abstract.aux
 A level-1 auxiliary file: 1_introduction/introduction.aux
@@ -16,45 +14,4 @@ Warning--entry type for "inmobi-monetize" isn't style-file defined
 --line 11 of file thesis.bib
 Warning--empty title in image:banner_ad
 Warning--empty title in image:interstitial_ad
-You've used 36 entries,
-            2937 wiz_defined-function locations,
-            800 strings with 9199 characters,
-and the built_in function-call counts, 6314 in all, are:
-= -- 831
-> -- 72
-< -- 0
-+ -- 48
-- -- 12
-* -- 391
-:= -- 969
-add.period$ -- 44
-call.type$ -- 36
-change.case$ -- 34
-chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 199
-empty$ -- 686
-format.name$ -- 13
-if$ -- 1857
-int.to.chr$ -- 0
-int.to.str$ -- 36
-missing$ -- 1
-newline$ -- 125
-num.names$ -- 9
-pop$ -- 160
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 447
-stack$ -- 0
-substring$ -- 0
-swap$ -- 42
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 9
-width$ -- 38
-write$ -- 214
 (There were 3 warnings)
