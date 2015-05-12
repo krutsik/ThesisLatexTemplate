@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.29)  13 MAY 2015 01:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.29)  13 MAY 2015 01:17
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -1166,24 +1166,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
 (5/conclusions.aux) (9_backmatter/appendices.aux) (9_backmatter/licence.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 49E91795E6310F40721FD880045EBB18;1704
-(rerunfilecheck)             After:  F807D4E1E4A3F6788B8054D5405B4307;1701.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: F807D4E1E4A3F6788B8054D5405B4307;1701.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 7FF00B22F6509C385AE607C7B5EE2E95;1917.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 27652 strings out of 493671
- 648130 string characters out of 3143865
+ 27655 strings out of 493671
+ 648198 string characters out of 3143865
  858142 words of memory out of 3000000
- 30326 multiletter control sequences out of 15000+200000
+ 30329 multiletter control sequences out of 15000+200000
  13295 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,12n,102p,858b,2000s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1199,7 +1192,7 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (35 pages, 372573 bytes).
+Output written on thesis.pdf (35 pages, 373232 bytes).
 PDF statistics:
  548 PDF objects out of 1000 (max. 8388607)
  123 named destinations out of 1000 (max. 500000)
