@@ -6,13 +6,11 @@ In this chapter we try to determine how the proposed advertising methods compare
 
 \section{Validation}
 
-\textbf{\textit{Setup and Methodology:}} 
+\textbf{Setup and Methodology:} To validate the hypothesis, the proposed solution is compared to traditional advertisement frameworks in terms of intrusiveness and effectiveness. A use case based on a Wikipedia app \footnote{https://github.com/wikimedia/WikipediaMobile} is developed, which implements the advertising library. This application is selected because the mechanism targets applications that present content to the user such as news, feeds, text, etc.
 
-To validate our hypothesis, we compare how our proposed solution is more effective than traditional advertisement frameworks. As a result, we develop one use case based on a Wikipedia app, which implements our library. This application is selected because our mechanisms targets applications that present content to the user, e.g., news, feeds, text, etc. 
+Initially, we integrate  traditional advertisement mechanisms into the selected application as shown in Figure \ref{fig:ads1}.
 
-Initially, we integrate the wikipedia app with traditional advertisement mechanism as shown in Figure\ref{fig:ads1}
-
-Next, we instrumentalize the same wikipedia app, but this time with our proposed solution. 
+Next, we use the same Wikipedia application, but this time with our proposed solution implemented as seen in Figures \ref{fig:ads2} and \ref{fig:ads3}.
 
 
 \begin{figure}
@@ -31,6 +29,7 @@ Figure 5.2 shows what the application might look like right after a \textit{Gest
 \includegraphics[scale=0.25]{Images/gesturead_small1.png}
 \includegraphics[scale=0.25]{Images/gesturead_small2.png}
 \caption{Examples of the application with a \textit{Gestrure Ad} in minimised form displayed}
+\label{fig:ads2}
 \end{center}
 \end{figure}
 
@@ -38,9 +37,10 @@ Figure 5.3 shows what the application might look like after the user zooms in on
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.5]{Images/gesturead_big1.png}
+\includegraphics[scale=0.25]{Images/gesturead_big1.png}
 \includegraphics[scale=0.25]{Images/gesturead_big2.png}
 \caption{Examples of the application with a \textit{Gestrure Ad} in maximised form displayed}
+\label{fig:ads3}
 \end{center}
 \end{figure}
 
@@ -50,7 +50,9 @@ There were 25 participants between the ages of 20 and 35, all day-to-day smartph
 
 They were asked to answer the first ten questions. Then they were asked to read an article of their choice from the Wikipedia application, half way though which an advertisement appeared, and asked to answer the final four questions.
 
-\section{Participants' Opinion on Traditional Mobile Advertising}
+\section{Results}
+
+\subsection{Participants' Opinion on Traditional Mobile Advertising}
 
 The participants claimed to be using their mobile devices anywhere between less than 30 minutes and more than 3 hours, however more than half of the participants use their mobile device 30 minutes to 1 hour each day as seen on Figure 5.4.
 
@@ -165,7 +167,7 @@ ymin=0, ymax=25,
 
 This shows how ineffective traditional advertising methods are and that people are quite easily willing to stop using an application that has intrusive adverts. Traditional advertising methods are often quantity-over-quality and developers can easily damage their reputation without significant gain.
 
-\section{Participants' Willingness to Adapt to New Methods of Advertising}
+\subsection{Participants' Willingness to Adapt to New Methods of Advertising}
 
 The participants were asked questions about their willingness to use functionality that this library provides without having used it before, to see whether they would be willing to adapt to dynamic advertisements in the applications they use\footnote{http://}.
 
@@ -290,6 +292,8 @@ ymin=0, ymax=25,
 
 \section{Summary}
 
-The feedback was mainly positive. Almost all users found that being able to move an advertisement around on the screen is something that they would like to do in mobile applications. Some found that, being used to classical advertisements, the fact that the advertisement can be interacted with is not very intuitive and needs instructions on first application launch.
+In this chapter the usage of the proposed mechanism is validated. Based on the results, 64\% of the participants found the mechanism to be less intrusive than classical advertising. 52\% of the participants reported being more interested in the advertised product.
+
+Almost all users found that being able to move an advertisement around on the screen is something that they would like to do in mobile applications. Some found that, being used to classical advertisements, the fact that the advertisement can be interacted with is not very intuitive and needs instructions on first application launch.
 
 Some of the participants are application developers and were more than happy to start using this method for application monetization if it ever became a feasible option.

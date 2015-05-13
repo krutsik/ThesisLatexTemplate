@@ -1,42 +1,40 @@
 \chapter{Implementation}
 
 
-(An overview figure of the system is missing)
+\textbf{(An overview figure of the system is missing)}
 
 
 To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library.
 
-\section{Application library}
+\section{Application Library}
 
 The library is a lightweight API that consists mainly of two parts: communication with the server,  and the ad view. The components of the server communication part are as follows:
 
-\textit{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\cite{notifications:gcm} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
+\textbf{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\footnote{http://developer.android.com/guide/google/gcm/} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
 
-\textit{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
+\textbf{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
 
-The \textit{ServerUtilities} class is an abstraction layer for communicating with our server. It has methods for registering and unregistering the device that are called in \textit{GCMIntentService} as discussed previously.
+The \textbf{ServerUtilities} class is an abstraction layer for communicating with our server. It has methods for registering and unregistering the device that are called in \textit{GCMIntentService} as discussed previously.
 
-Finally, \textit{FileDownloader} is responsible for downloading the image files for an advertisement once \textit{GCMIntentService} receives and decodes them.
+Finally, \textbf{FileDownloader} is responsible for downloading the image files for an advertisement once \textit{GCMIntentService} receives and decodes them.
 
-The user interface portion of the library is in a single class: \textit{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is then capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
+The user interface portion of the library is in a single class: \textbf{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is then capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
 
-The flow of the library is described by Appendix B.
-
-\section{Back-end distributor}
+\section{Back-end Distributor}
 
 On the server-side there is a Java server application that handles the client's requests. The main components of the application are as follows:
 
-\textit{Datastore} is a simple implementation of a data store using standard Java collections. It is not persistent throughout redeploys, but its only purpose is to store the ids of registered devices.
+\textbf{Datastore} is a simple implementation of a data store using standard Java collections. It is not persistent throughout redeploys, but its only purpose is to store the ids of registered devices.
 
-\textit{RegisterServlet} takes as a parameter the registration id from GCM and adds it to \textit{Datastore}'s id list. Likewise, \textit{UnregisterServlet} takes as a parameter the registration id from that a device is registered with and removes it from \textit{Datastore}'s id list.
+\textbf{RegisterServlet} takes as a parameter the registration id from GCM and adds it to \textit{Datastore}'s id list. Likewise, \textit{UnregisterServlet} takes as a parameter the registration id from that a device is registered with and removes it from \textit{Datastore}'s id list.
 
-\textit{HomeServlet} is the only servlet with a graphical user interface. It has a label displaying the amount of registered devices as well as buttons to send pre-determined advertisements to the registered devices.
+\textbf{HomeServlet} is the only servlet with a graphical user interface. It has a label displaying the amount of registered devices as well as buttons to send pre-determined advertisements to the registered devices.
 
-\textit{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to all registered devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
+\textbf{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to all registered devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
 
-\section{Application Programming Interface}
+\section{API Integration into Mobile Lifecycle}
 
-The Application Programming Interface (API) is very minimalist. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The AndroidManifest.xml file of the application needs to be modified to include required permissions:
+The Application Programming Interface (API) to use in an Android Application is very minimalist. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The \textit{AndroidManifest.xml} file of the application needs to be modified to include required permissions:
 
 \lstset{language=XML}
 \begin{lstlisting}
@@ -115,6 +113,6 @@ public class MyActivity extends Activity {
 
 \section{Summary}
 
-As can be seen, the implementation is really minimalistic. However the library can be added to any Android application written in Java and the simple back-end application can be used to demonstrate the proposed method of displaying advertisements to a mobile user.
+A new mechanism which is less intrusive than classical advertising frameworks was develoed. As can be seen, the library is easy to use with any Android application. It relies on push notifications to display an advertisement on the device's screen. The simple back-end application can be used to demonstrate the proposed method of displaying advertisements to the user.
 
 The next chapter discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over classical advertising methods.

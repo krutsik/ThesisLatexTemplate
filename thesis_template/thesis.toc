@@ -4,26 +4,27 @@
 \contentsline {section}{\numberline {1.2}Contributions}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Outline}{3}{section.1.3}
 \thispagestyle {empty}
-\contentsline {chapter}{\numberline {2}Problem Statement}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Research Question}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Summary}{6}{section.2.2}
-\contentsline {chapter}{\numberline {3}Background}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Industrial Advertising Frameworks}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Related Works}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Summary}{10}{section.3.3}
-\contentsline {chapter}{\numberline {4}Implementation}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Application library}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Back-end distributor}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application Programming Interface}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}Summary}{15}{section.4.4}
-\contentsline {chapter}{\numberline {5}Case Studies}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Setup and Methodology}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Participants' Opinion on Traditional Mobile Advertising}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Participants' Willingness to Adapt to New Methods of Advertising}{25}{section.5.3}
-\contentsline {section}{\numberline {5.4}Participants' Opinion of Dynamic Advertisements}{27}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{29}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions}{30}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendices}{32}{chapter.7}
-\contentsline {section}{\numberline {.1}Appendix A}{32}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}Appendix B}{35}{section.Alph0.2}
-\contentsline {chapter}{Bibliography}{36}{appendix*.16}
+\contentsline {chapter}{\numberline {2}State of the Art}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Industrial Advertising Frameworks}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Related Works}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Summary}{7}{section.2.3}
+\contentsline {chapter}{\numberline {3}Problem Statement}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Research Question}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Summary}{11}{section.3.2}
+\contentsline {chapter}{\numberline {4}Implementation}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Application Library}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Back-end Distributor}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}API Integration into Mobile Lifecycle}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{16}{section.4.4}
+\contentsline {chapter}{\numberline {5}Case Studies}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Validation}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Results}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Participants' Opinion on Traditional Mobile Advertising}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Participants' Willingness to Adapt to New Methods of Advertising}{22}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Participants' Opinion of Dynamic Advertisements}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Summary}{28}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Directions}{31}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendices}{33}{chapter.7}
+\contentsline {section}{\numberline {.1}Appendix A}{33}{section.Alph0.1}
+\contentsline {section}{\numberline {.2}Appendix B}{36}{section.Alph0.2}
+\contentsline {chapter}{Bibliography}{37}{appendix*.16}
