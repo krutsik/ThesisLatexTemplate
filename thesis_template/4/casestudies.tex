@@ -4,17 +4,23 @@ An application's user is generally not happy about seeing advertisements in the 
 
 In this chapter we try to determine how the proposed advertising methods compares to the more traditional ones in terms of user experience.
 
-\section{Setup and Methodology}
+\section{Validation}
 
-To test the hypothesis, the library was implemented to an open-source Android application for reading Wikipedia articles. It is a good example of the possible use cases of the library, because most of the screen space is covered with content and more traditional advertising methods with a static location can bother and distract the user.
+\textbf{\textit{Setup and Methodology:}} 
 
-Figure 5.1 shows what the application might look like with a banner or full screen advertisement.
+To validate our hypothesis, we compare how our proposed solution is more effective than traditional advertisement frameworks. As a result, we develop one use case based on a Wikipedia app, which implements our library. This application is selected because our mechanisms targets applications that present content to the user, e.g., news, feeds, text, etc. 
+
+Initially, we integrate the wikipedia app with traditional advertisement mechanism as shown in Figure\ref{fig:ads1}
+
+Next, we instrumentalize the same wikipedia app, but this time with our proposed solution. 
+
 
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.25]{Images/classicalad_banner.png}
 \includegraphics[scale=0.25]{Images/classicalad_fullscreen.png}
 \caption{Examples of the application a banner or full screen advertisement}
+\label{fig:ads1}
 \end{center}
 \end{figure}
 
@@ -32,7 +38,7 @@ Figure 5.3 shows what the application might look like after the user zooms in on
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.25]{Images/gesturead_big1.png}
+\includegraphics[width=0.5]{Images/gesturead_big1.png}
 \includegraphics[scale=0.25]{Images/gesturead_big2.png}
 \caption{Examples of the application with a \textit{Gestrure Ad} in maximised form displayed}
 \end{center}
@@ -161,9 +167,9 @@ This shows how ineffective traditional advertising methods are and that people a
 
 \section{Participants' Willingness to Adapt to New Methods of Advertising}
 
-The participants were asked questions about their willingness to use functionality that this library provides without having used it before, to see whether they would be willing to adapt to dynamic advertisements in the applications they use.
+The participants were asked questions about their willingness to use functionality that this library provides without having used it before, to see whether they would be willing to adapt to dynamic advertisements in the applications they use\footnote{http://}.
 
-All the participants thought they would get rid of an advertisement as soon as it appeared at least half the time as seen on Figure 5.9, but 44\% of participants thought they would move an advertisement for later viewing at least some of the times and 24\% that they would want to view an advertisement later about half the times as seen on Figure 5.10.
+All the participants thought they would get rid of an advertisement as soon as it appeared at least half the time as seen on Figure 5.9, but 44\% of participants thought they would move an advertisement for later viewing at least some of the times and 24\% that they would want to view an advertisement later about half the times as seen on Figure 5.10. 
 
 \begin{figure}
 \begin{center}
