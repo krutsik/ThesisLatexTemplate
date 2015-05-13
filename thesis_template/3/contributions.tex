@@ -30,7 +30,7 @@ On the server-side there is a Java server application that handles the client's 
 
 \textit{HomeServlet} is the only servlet with a graphical user interface. It has a label displaying the amount of registered devices as well as buttons to send pre-determined advertisements to the registered devices.
 
-\textit{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to the devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
+\textit{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to all registered devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
 
 \section{Application Programming Interface}
 
@@ -115,4 +115,4 @@ public class MyActivity extends Activity {
 
 As can be seen, the implementation is really minimalistic. However the library can be added to any Android application written in Java and the simple back-end application can be used to demonstrate the proposed method of displaying advertisements to a mobile user.
 
-The next paragraph discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over classical advertising methods.
+The next chapter discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over classical advertising methods.
