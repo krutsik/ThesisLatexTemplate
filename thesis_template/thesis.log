@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  13 MAY 2015 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  13 MAY 2015 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,11 +1288,11 @@ Package rerunfilecheck Info: File `thesis.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
- 28780 strings out of 493117
- 658402 string characters out of 6135434
+ 28781 strings out of 493117
+ 658417 string characters out of 6135434
  837056 words of memory out of 5000000
- 31486 multiletter control sequences out of 15000+600000
- 13295 words of font info for 50 fonts, out of 8000000 for 9000
+ 31487 multiletter control sequences out of 15000+600000
+ 13641 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,102p,858b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1308,7 +1308,7 @@ texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (39 pages, 1315033 bytes).
+Output written on thesis.pdf (39 pages, 1315087 bytes).
 PDF statistics:
  656 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams
