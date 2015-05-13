@@ -20,6 +20,8 @@ Finally, \textit{FileDownloader} is responsible for downloading the image files 
 
 The user interface portion of the library is in a single class: \textit{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is then capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
 
+The flow of the library is described by Appendix B.
+
 \section{Back-end distributor}
 
 On the server-side there is a Java server application that handles the client's requests. The main components of the application are as follows:

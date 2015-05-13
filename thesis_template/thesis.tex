@@ -105,6 +105,7 @@
 \setcounter{secnumdepth}{3}		% organisational level that receives a numbers
 \setcounter{tocdepth}{3}    		% print table of contents for level 3
 \tableofcontents            				% print the table of contents
+\thispagestyle{empty} 
 % levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
 
 %: ----------------------- list of figures/tables ------------------------
@@ -139,6 +140,7 @@
 
 \renewcommand{\chaptername}{} % uncomment to print only "1" not "Chapter 1"
 
+\addtocontents{toc}{\protect\thispagestyle{empty}}
 
 %: ----------------------- subdocuments ------------------------
 

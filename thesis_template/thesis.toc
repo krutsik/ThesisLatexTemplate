@@ -3,6 +3,7 @@
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contributions}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Outline}{3}{section.1.3}
+\thispagestyle {empty}
 \contentsline {chapter}{\numberline {2}Problem Statement}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Research Question}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Summary}{6}{section.2.2}
@@ -24,4 +25,5 @@
 \contentsline {chapter}{\numberline {6}Conclusions}{30}{chapter.6}
 \contentsline {chapter}{\numberline {7}Appendices}{32}{chapter.7}
 \contentsline {section}{\numberline {.1}Appendix A}{32}{section.Alph0.1}
-\contentsline {chapter}{Bibliography}{35}{appendix*.16}
+\contentsline {section}{\numberline {.2}Appendix B}{35}{section.Alph0.2}
+\contentsline {chapter}{Bibliography}{36}{appendix*.16}
