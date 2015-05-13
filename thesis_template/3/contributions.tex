@@ -32,6 +32,85 @@ On the server-side there is a Java server application that handles the client's 
 
 \textit{SendAllMessagesServlet} is responsible for sending a push notification to each of the registered devices once a button in \textit{HomeServlet} is pressed. It takes as a parameter the id of an advertisement and based on that builds a GCM message which it then sends to the devices, tracking whether sending the message was successful or not and then returning to \textit{HomeServlet}
 
+\section{Application Programming Interface}
+
+The Application Programming Interface (API) is very minimalist. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The AndroidManifest.xml file of the application needs to be modified to include required permissions:
+
+\lstset{language=XML}
+\begin{lstlisting}
+<permission
+    android:name="your_package.permission.C2D_MESSAGE"
+    android:protectionLevel="signature" />
+
+<uses-permission android:name="your_package.permission.C2D_MESSAGE" />
+<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+\end{lstlisting}
+
+Also a broadcast receiver for Google Cloud Messaging notifications:
+
+\begin{lstlisting}
+<receiver
+    android:name="com.in.mobile.gesture.ad.BroadcastReceiver"
+    android:permission="com.google.android.c2dm.permission.SEND" >
+    <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+        <category android:name="your_package" />
+    </intent-filter>
+</receiver>
+\end{lstlisting}
+
+and an intent service for Google Cloud Messaging:
+
+\begin{lstlisting}
+<service android:name="com.in.mobile.gesture.ad.GCMIntentService" />
+\end{lstlisting}
+
+Example usage of the mechanism in an activity would then look something like this:
+
+\lstset{language=Java}
+
+\begin{lstlisting}
+import com.in.mobile.gesture.ad.AdContentLoader;
+import com.in.mobile.gesture.ad.DynamicAdView.Position;
+
+public class MyActivity extends Activity {
+
+    AdContentLoader adLoader;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // View code
+
+        adLoader = new AdContentLoader(this);
+        adLoader.setPosition(Position.TOP_RIGHT);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        adLoader.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+
+        adLoader.destroy();
+    }
+}
+\end{lstlisting}
+
 \section{Summary}
 
 As can be seen, the implementation is really minimalistic. However the library can be added to any Android application written in Java and the simple back-end application can be used to demonstrate the proposed method of displaying advertisements to a mobile user.

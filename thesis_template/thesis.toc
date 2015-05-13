@@ -14,14 +14,15 @@
 \contentsline {chapter}{\numberline {4}Implementation}{10}{chapter.4}
 \contentsline {section}{\numberline {4.1}Application library}{10}{section.4.1}
 \contentsline {section}{\numberline {4.2}Back-end distributor}{11}{section.4.2}
-\contentsline {section}{\numberline {4.3}Summary}{12}{section.4.3}
-\contentsline {chapter}{\numberline {5}Case Studies}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Setup and Methodology}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Participants' Opinion on Traditional Mobile Advertising}{14}{section.5.2}
-\contentsline {section}{\numberline {5.3}Participants' Willingness to Adapt to New Methods of Advertising}{19}{section.5.3}
-\contentsline {section}{\numberline {5.4}Participants' Opinion of Dynamic Advertisements}{21}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{23}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions}{24}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendices}{26}{chapter.7}
-\contentsline {section}{\numberline {.1}Appendix A}{26}{section.Alph0.1}
-\contentsline {chapter}{Bibliography}{29}{appendix*.13}
+\contentsline {section}{\numberline {4.3}Application Programming Interface}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{14}{section.4.4}
+\contentsline {chapter}{\numberline {5}Case Studies}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Setup and Methodology}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Participants' Opinion on Traditional Mobile Advertising}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Participants' Willingness to Adapt to New Methods of Advertising}{21}{section.5.3}
+\contentsline {section}{\numberline {5.4}Participants' Opinion of Dynamic Advertisements}{23}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{25}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusions}{26}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendices}{28}{chapter.7}
+\contentsline {section}{\numberline {.1}Appendix A}{28}{section.Alph0.1}
+\contentsline {chapter}{Bibliography}{31}{appendix*.13}
