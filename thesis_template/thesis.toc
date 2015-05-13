@@ -18,11 +18,11 @@
 \contentsline {section}{\numberline {4.4}Summary}{14}{section.4.4}
 \contentsline {chapter}{\numberline {5}Case Studies}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Setup and Methodology}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}Participants' Opinion on Traditional Mobile Advertising}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}Participants' Willingness to Adapt to New Methods of Advertising}{21}{section.5.3}
-\contentsline {section}{\numberline {5.4}Participants' Opinion of Dynamic Advertisements}{23}{section.5.4}
-\contentsline {section}{\numberline {5.5}Summary}{25}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusions}{26}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendices}{28}{chapter.7}
-\contentsline {section}{\numberline {.1}Appendix A}{28}{section.Alph0.1}
-\contentsline {chapter}{Bibliography}{31}{appendix*.13}
+\contentsline {section}{\numberline {5.2}Participants' Opinion on Traditional Mobile Advertising}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Participants' Willingness to Adapt to New Methods of Advertising}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Participants' Opinion of Dynamic Advertisements}{25}{section.5.4}
+\contentsline {section}{\numberline {5.5}Summary}{27}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusions}{28}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendices}{30}{chapter.7}
+\contentsline {section}{\numberline {.1}Appendix A}{30}{section.Alph0.1}
+\contentsline {chapter}{Bibliography}{33}{appendix*.15}
