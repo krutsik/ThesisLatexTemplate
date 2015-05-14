@@ -1,10 +1,8 @@
 \chapter{Implementation}
 
-
 \textbf{(An overview figure of the system is missing)}
 
-
-To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library.
+To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library. Code for both the library and the server application is available in the project's repository \footnote{https://github.com/huberflores/GestureMechanism}.
 
 \section{Application Library}
 
@@ -34,7 +32,7 @@ On the server-side there is a Java server application that handles the client's 
 
 \section{API Integration into Mobile Lifecycle}
 
-The Application Programming Interface (API) to use in an Android Application is very minimalist. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The \textit{AndroidManifest.xml} file of the application needs to be modified to include required permissions:
+The Application Programming Interface (API) to use in an Android Application is very minimalist. It's usage is explained in the project's repository \footnote{https://github.com/huberflores/GestureMechanism/blob/master/README.md}. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The \textit{AndroidManifest.xml} file of the application needs to be modified to include required permissions:
 
 \lstset{language=XML}
 \begin{lstlisting}
