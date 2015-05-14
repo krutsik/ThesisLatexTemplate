@@ -1,25 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.5.14)  14 MAY 2015 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  14 MAY 2015 14:34
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **thesis.tex
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\Latex/Classes/PhDt
-hesisPSnPDF.cls
+(./thesis.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./Latex/Classes/PhDthesisPSnPDF.cls
 Document Class: Latex/Classes/PhDthesisPSnPDF 2007/09/06 v2 PhD thesis class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk11.clo
 File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -35,10 +26,10 @@ File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -46,37 +37,37 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 \captionmargin=\dimen103
@@ -89,7 +80,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 \c@ContinuedFloat=\count89
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -100,25 +91,19 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\eucal.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/eucal.sty
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen110
 )
@@ -126,18 +111,18 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 137.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
-File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\footmisc\footmisc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks16
 \footnotemargin=\dimen111
@@ -152,18 +137,18 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count93
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \c@tracingmulticols=\count94
 \mult@box=\box26
 \multicol@leftmargin=\dimen112
@@ -180,6 +165,7 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \multicolbaselineskip=\skip55
 \partial@page=\box27
 \last@line=\box28
+\maxbalancingoverflow=\dimen117
 \mult@rightbox=\box29
 \mult@grightbox=\box30
 \mult@gfirstbox=\box31
@@ -203,43 +189,45 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box49
 \c@columnbadness=\count100
 \c@finalcolumnbadness=\count101
-\last@try=\dimen117
-\multicolovershoot=\dimen118
-\multicolundershoot=\dimen119
+\last@try=\dimen118
+\multicolovershoot=\dimen119
+\multicolundershoot=\dimen120
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\multicol@sort@counter=\count102
+\mc@col@check@num=\count102
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\tocbibind\tocbibind.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\nomencl\nomencl.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen120
-\nom@tempdim=\dimen121
+\nomlabelwidth=\dimen121
+\nom@tempdim=\dimen122
 \nomitemsep=\skip56
 )
 \@nomenclaturefile=\write3
+\openout3 = `thesis.nlo'.
+
 
 Writing nomenclature file thesis.nlo
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -269,7 +257,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -277,25 +265,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen122
+\@linkdim=\dimen123
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count105
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `plainpages' set `false' on input line 4319.
@@ -328,25 +316,25 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing ON on input line 4461.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2012/07/25 v1.38 Bibliographical back referencing
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
 \c@Hy@tempcnt=\count106
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen123
+\XeTeXLinkMargin=\dimen124
 \Fld@menulength=\count107
-\Field@Width=\dimen124
-\Fld@charsize=\dimen125
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
 Package hyperref Info: Hyper figures ON on input line 6293.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -363,16 +351,16 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver: hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 \Hy@SectionHShift=\skip57
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen126
-\Gin@req@width=\dimen127
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
@@ -380,62 +368,52 @@ less on input line 205.
 
 )
 \@input{Latex/Macros/MacroFile1.aux}
+\openout2 = `Latex/Macros/MacroFile1.aux'.
 
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\Latex/Macros/Macro
-File1.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgfplots\pgfplots.sty
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.revis
-ion.tex)
-Package: pgfplots 2015/01/31 v1.12 Data Visualization (1.12)
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
-y (C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon.tex
+(./Latex/Macros/MacroFile1.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2014/02/28 v1.10 Data Visualization (1.10-2-gb39fe75)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
 \pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen128
-\pgfutil@tempdimb=\dimen129
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon-lists.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
-atex.def
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box52
- (C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
-de.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
 Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
-y
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
-y
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
-code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
-ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks18
 \pgfkeys@temptoks=\toks19
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
-ltered.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
 \pgfkeys@tmptoks=\toks20
 ))
-\pgf@x=\dimen130
-\pgf@y=\dimen131
-\pgf@xa=\dimen132
-\pgf@ya=\dimen133
-\pgf@xb=\dimen134
-\pgf@yb=\dimen135
-\pgf@xc=\dimen136
-\pgf@yc=\dimen137
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
 \c@pgf@counta=\count113
@@ -446,33 +424,32 @@ ltered.code.tex
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
 File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-common-pdf.def
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
-oftpath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count117
 \pgfsyssoftpath@bigbuffer@items=\count118
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
-rotocol.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+)) (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -487,195 +464,183 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
-code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
-de.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
-de.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
-code.tex
-\pgfmath@dimen=\dimen138
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
 \pgfmath@count=\count119
 \pgfmath@box=\box53
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.basic.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.trigonometric.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.random.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.comparison.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.base.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.round.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.misc.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.integerarithmetics.code.tex)))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
-ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count120
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-oints.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen139
-\pgf@picmaxx=\dimen140
-\pgf@picminy=\dimen141
-\pgf@picmaxy=\dimen142
-\pgf@pathminx=\dimen143
-\pgf@pathmaxx=\dimen144
-\pgf@pathminy=\dimen145
-\pgf@pathmaxy=\dimen146
-\pgf@xx=\dimen147
-\pgf@xy=\dimen148
-\pgf@yx=\dimen149
-\pgf@yy=\dimen150
-\pgf@zx=\dimen151
-\pgf@zy=\dimen152
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athconstruct.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen153
-\pgf@path@lasty=\dimen154
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athusage.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen155
-\pgf@shorten@start@additional=\dimen156
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
-copes.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
 \pgf@picture@serial@count=\count121
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
-raphicstate.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen157
+\pgflinewidth=\dimen158
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
-ransformations.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen158
-\pgf@pt@y=\dimen159
-\pgf@pt@temp=\dimen160
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
-uick.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
-bjects.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athprocessing.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
-rrows.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen161
+\pgfarrowsep=\dimen162
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
-hade.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen162
+\pgf@max=\dimen163
 \pgf@sys@shading@range@num=\count122
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
-mage.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
-xternal.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box57
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
-ayers.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
-ransparency.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-atterns.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
-apes.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box58
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
-ot.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
--version-0-65.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen163
-\pgf@nodesepend=\dimen164
+\pgf@nodesepstart=\dimen164
+\pgf@nodesepend=\dimen165
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
--version-1-18.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
-ode.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
-de.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex)
-\pgffor@iter=\dimen165
-\pgffor@skip=\dimen166
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen166
+\pgffor@skip=\dimen167
 \pgffor@stack=\toks27
 \pgffor@toks=\toks28
 ))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-tikz.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
-yplothandlers.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count123
-\pgfplotmarksize=\dimen167
+\pgfplotmarksize=\dimen168
 )
-\tikz@lastx=\dimen168
-\tikz@lasty=\dimen169
-\tikz@lastxsaved=\dimen170
-\tikz@lastysaved=\dimen171
-\tikzleveldistance=\dimen172
-\tikzsiblingdistance=\dimen173
+\tikz@lastx=\dimen169
+\tikz@lasty=\dimen170
+\tikz@lastxsaved=\dimen171
+\tikz@lastysaved=\dimen172
+\tikzleveldistance=\dimen173
+\tikzsiblingdistance=\dimen174
 \tikz@figbox=\box59
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
@@ -685,8 +650,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count126
 \tikz@fig@count=\count127
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
-trix.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count128
 \pgfmatrixcurrentcolumn=\count129
@@ -694,180 +659,154 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count131
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibrarytopaths.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.code.
-tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotscore.c
-ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks29
 \t@pgfplots@tokb=\toks30
 \t@pgfplots@tokc=\toks31
-\pgfplots@tmpa=\dimen174
+\pgfplots@tmpa=\dimen175
 \c@pgfplots@coordindex=\count132
 \c@pgfplots@scanlineindex=\count133
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\pgfplotssy
-sgeneric.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs\pgfplotsl
-ibrary.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldpgfcompatib
-\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
-yfpu.code.tex)
-Package pgfplots: loading complementary arithmetics for your pgf version...
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldpgfcompatib
-\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldpgfcompatib
-\pgfplotsoldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count134
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count134
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\oldpgfcompatib
-\pgfplotsoldpgfsupp_trig_format.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsu
-til.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\
-pgfplotsliststructure.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\
-pgfplotsliststructureext.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\
-pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count135
-)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\
-pgfplotsmatrix.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\numtable\pgfpl
-otstableshared.code.tex
-\c@pgfplotstable@counta=\count136
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count135
 \t@pgfplotstable@a=\toks32
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\liststructure\
-pgfplotsdeque.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsb
-inary.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsb
-inary.data.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsu
-til.verb.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs\pgflibrar
-ypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count137
-
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\sys\pgflibrary
-pgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsc
-olormap.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\util\pgfplotsc
-olor.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotsstacke
-dplots.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotsplotha
-ndlers.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotsmeshpl
-othandler.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.scali
-ng.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotscoordp
-rocessing.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.error
-bars.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.marke
-rs.code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplotsticks.
-code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfplots.paths
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
 .code.tex)
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibrarydecorations.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulede
-corations.code.tex
-\pgfdecoratedcompleteddistance=\dimen175
-\pgfdecoratedremainingdistance=\dimen176
-\pgfdecoratedinputsegmentcompleteddistance=\dimen177
-\pgfdecoratedinputsegmentremainingdistance=\dimen178
-\pgf@decorate@distancetomove=\dimen179
-\pgf@decorate@repeatstate=\count138
-\pgfdecorationsegmentamplitude=\dimen180
-\pgfdecorationsegmentlength=\dimen181
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count136
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen176
+\pgfdecoratedremainingdistance=\dimen177
+\pgfdecoratedinputsegmentcompleteddistance=\dimen178
+\pgfdecoratedinputsegmentremainingdistance=\dimen179
+\pgf@decorate@distancetomove=\dimen180
+\pgf@decorate@repeatstate=\count137
+\pgfdecorationsegmentamplitude=\dimen181
+\pgfdecorationsegmentlength=\dimen182
 )
 \tikz@lib@dec@box=\box63
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decoratio
-ns\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decoratio
-ns\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count139
-\pgfplots@xmin@reg=\dimen182
-\pgfplots@xmax@reg=\dimen183
-\pgfplots@ymin@reg=\dimen184
-\pgfplots@ymax@reg=\dimen185
-\pgfplots@zmin@reg=\dimen186
-\pgfplots@zmax@reg=\dimen187
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count138
+\pgfplots@xmin@reg=\dimen183
+\pgfplots@xmax@reg=\dimen184
+\pgfplots@ymin@reg=\dimen185
+\pgfplots@ymax@reg=\dimen186
+\pgfplots@zmin@reg=\dimen187
+\pgfplots@zmax@reg=\dimen188
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibraryplotmarks.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
-yplotmarks.code.tex
+(/usr/local/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
 File: pgflibraryplotmarks.code.tex 2013/07/20 v3.0.0 (rcs-revision 1.13)
 )))
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count140
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count139
 \lst@gtempboxa=\box64
 \lst@token=\toks33
-\lst@length=\count141
-\lst@currlwidth=\dimen188
-\lst@column=\count142
-\lst@pos=\count143
-\lst@lostspace=\dimen189
-\lst@width=\dimen190
-\lst@newlines=\count144
-\lst@lineno=\count145
-\lst@maxwidth=\dimen191
+\lst@length=\count140
+\lst@currlwidth=\dimen189
+\lst@column=\count141
+\lst@pos=\count142
+\lst@lostspace=\dimen190
+\lst@width=\dimen191
+\lst@newlines=\count143
+\lst@lineno=\count144
+\lst@maxwidth=\dimen192
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count146
-\lst@skipnumbers=\count147
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count145
+\lst@skipnumbers=\count146
 \lst@framebox=\box65
 )
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2014/09/06 1.5e listings configuration
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2014/09/06 1.5e (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.aux
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\title_page/stardar
-d_page.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\0_frontmatter/abst
-ract.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\7/eestiabstract.au
-x)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\1_introduction/int
-roduction.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\2/background.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/researchquestion
-.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/contributions.au
-x)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\4/casestudies.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\5/conclusions.aux)
+(./thesis.aux (./title_page/stardard_page.aux) (./0_frontmatter/abstract.aux)
+(./7/eestiabstract.aux) (./1_introduction/introduction.aux) (./2/background.aux
+) (./3/researchquestion.aux) (./3/contributions.aux) (./4/casestudies.aux)
+(./5/conclusions.aux) (./9_backmatter/appendices.aux)
+(./9_backmatter/licence.aux))
+\openout1 = `thesis.aux'.
 
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/appen
-dices.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/licen
-ce.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
@@ -883,20 +822,33 @@ LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 
-(C:\Users\Tohver\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count148
-\scratchdimen=\dimen192
+\scratchcounter=\count147
+\scratchdimen=\dimen193
 \scratchbox=\box66
-\nofMPsegments=\count149
-\nofMParguments=\count150
+\nofMPsegments=\count148
+\nofMParguments=\count149
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count151
-\MPscratchDim=\dimen193
-\MPnumerator=\count152
-\makeMPintoPDFobject=\count153
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen194
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
 \everyMPtoPDFconversion=\toks35
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.jpg,.jpeg,.pdf,.gif,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -904,40 +856,42 @@ Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box67
 Package backref Info: ** backref set up for natbib ** on input line 84.
 Package hyperref Info: Link coloring OFF on input line 84.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count154
+\c@section@level=\count153
 )
 LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
 LaTeX Info: Redefining \nameref on input line 84.
 
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.out)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.out)
+(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
+\openout5 = `thesis.out'.
 
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.10} into 
 your preamble.
  on input line 84.
 
-\c@lstlisting=\count155
+\c@lstlisting=\count154
+\openout2 = `title_page/stardard_page.aux'.
 
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\title_page/stardar
-d_page.tex
+(./title_page/stardard_page.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 38.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -945,10 +899,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-{C:/Users/Tohver/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\0_frontmatter/abst
-ract.texpdfTeX warning (ext4): destination with the same identifier (name{page.
-i}) has been already used, duplicate ignored
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\openout2 = `0_frontmatter/abstract.aux'.
+
+
+(./0_frontmatter/abstract.texpdfTeX warning (ext4): destination with the same i
+dentifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 \end{abstracts}
@@ -956,23 +912,26 @@ l.19 \end{abstracts}
 
 
 ])
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\7/eestiabstract.te
-x
+\openout2 = `7/eestiabstract.aux'.
+
+ (./7/eestiabstract.tex
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¤ in font cmr10!
  [2
 
 
-]) (C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.toc
-[3
+]) (./thesis.toc [3
 \FN@pp@footnotehinttrue 
 
 
 ])
 \tf@toc=\write6
+\openout6 = `thesis.toc'.
+
  [4]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\1_introduction/int
-roduction.tex
+\openout2 = `1_introduction/introduction.aux'.
+
+ (./1_introduction/introduction.tex
  1.
 [1
 
@@ -980,13 +939,16 @@ roduction.tex
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
  [2]) [3]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\2/background.tex
+\openout2 = `2/background.aux'.
+
+
+(./2/background.tex
  2.
 [4
 
@@ -1024,16 +986,17 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [6]) [7] [8]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/researchquestion
-.tex
+\openout2 = `3/researchquestion.aux'.
+
+ (./3/researchquestion.tex
  3.
-<Images/banner.png, id=295, 191.71625pt x 377.41pt>
+<Images/banner.png, id=299, 191.71625pt x 377.41pt>
 File: Images/banner.png Graphic file (type png)
  <use Images/banner.png>
 Package pdftex.def Info: Images/banner.png used on input line 13.
 (pdftex.def)             Requested size: 191.71577pt x 377.40907pt.
 
-<Images/fullscreen.png, id=297, 191.71625pt x 377.41pt>
+<Images/fullscreen.png, id=301, 191.71625pt x 377.41pt>
 File: Images/fullscreen.png Graphic file (type png)
 
 <use Images/fullscreen.png>
@@ -1043,27 +1006,35 @@ Package pdftex.def Info: Images/fullscreen.png used on input line 14.
 
 
 
-] [10 <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/banne
-r.png> <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/full
-screen.png>]) [11]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/contributions.te
-x
+] [10 <./Images/banner.png> <./Images/fullscreen.png>]) [11]
+\openout2 = `3/contributions.aux'.
+
+ (./3/contributions.tex
  4.
-[12
+<Images/client-server.png, id=325, 971.63pt x 573.14125pt>
+File: Images/client-server.png Graphic file (type png)
+
+<use Images/client-server.png>
+Package pdftex.def Info: Images/client-server.png used on input line 7.
+(pdftex.def)             Requested size: 398.37088pt x 234.98943pt.
+ [12
 
 
 
-] [13] [14] [15]) [16]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\4/casestudies.tex
+] [13 <./Images/client-server.png>] [14]
+[15]) [16] [17]
+\openout2 = `4/casestudies.aux'.
+
+ (./4/casestudies.tex
  5.
-<Images/classicalad_banner.png, id=404, 722.7pt x 1284.8pt>
+<Images/classicalad_banner.png, id=423, 722.7pt x 1284.8pt>
 File: Images/classicalad_banner.png Graphic file (type png)
 
 <use Images/classicalad_banner.png>
 Package pdftex.def Info: Images/classicalad_banner.png used on input line 18.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/classicalad_fullscreen.png, id=405, 722.7pt x 1284.8pt>
+<Images/classicalad_fullscreen.png, id=424, 722.7pt x 1284.8pt>
 File: Images/classicalad_fullscreen.png Graphic file (type png)
 
 <use Images/classicalad_fullscreen.png>
@@ -1071,59 +1042,55 @@ Package pdftex.def Info: Images/classicalad_fullscreen.png used on input line 1
 9.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/gesturead_small1.png, id=406, 722.7pt x 1284.8pt>
+<Images/gesturead_small1.png, id=425, 722.7pt x 1284.8pt>
 File: Images/gesturead_small1.png Graphic file (type png)
 
 <use Images/gesturead_small1.png>
 Package pdftex.def Info: Images/gesturead_small1.png used on input line 29.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/gesturead_small2.png, id=407, 722.7pt x 1284.8pt>
+<Images/gesturead_small2.png, id=426, 722.7pt x 1284.8pt>
 File: Images/gesturead_small2.png Graphic file (type png)
 
 <use Images/gesturead_small2.png>
 Package pdftex.def Info: Images/gesturead_small2.png used on input line 30.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
- [17
+ [18
 
 
 
-] [18 <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/class
-icalad_banner.png> <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template
-/Images/classicalad_fullscreen.png>]
-[19 <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/gesture
-ad_small1.png> <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Ima
-ges/gesturead_small2.png>]
-<Images/gesturead_big1.png, id=426, 722.7pt x 1284.8pt>
+] [19 <./Images/classicalad_banner.png> <./Images/classicalad_fullscreen.png>] 
+[20 <./Images/gesturead_small1.png> <./Images/gesturead_small2.png>]
+<Images/gesturead_big1.png, id=446, 722.7pt x 1284.8pt>
 File: Images/gesturead_big1.png Graphic file (type png)
 
 <use Images/gesturead_big1.png>
 Package pdftex.def Info: Images/gesturead_big1.png used on input line 40.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/gesturead_big2.png, id=427, 722.7pt x 1284.8pt>
+<Images/gesturead_big2.png, id=447, 722.7pt x 1284.8pt>
 File: Images/gesturead_big2.png Graphic file (type png)
 
 <use Images/gesturead_big2.png>
 Package pdftex.def Info: Images/gesturead_big2.png used on input line 41.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
- [20 <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/gestur
-ead_big1.png> <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Imag
-es/gesturead_big2.png>] [21] [22] [23] [24]
-[25] [26] [27] [28] [29]) [30]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\5/conclusions.tex
+ [21 <./Images/gesturead_big1.png> <./Images/gesturead_big2.png>] [22] [23] [24
+] [25] [26] [27] [28] [29] [30]) [31]
+\openout2 = `5/conclusions.aux'.
+
+
+(./5/conclusions.tex
  6.
-[31
+[32
 
 
 
-]) [32]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/appen
-dices.tex
+]) [33]
+\openout2 = `9_backmatter/appendices.aux'.
+
+ (./9_backmatter/appendices.tex
  7.
-
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/quest
-ionnaire.tex
+(./9_backmatter/questionnaire.tex
 Overfull \hbox (82.51172pt too wide) detected at line 6
  []
  []
@@ -1173,7 +1140,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 24
  []
  []
 
-[33
+[34
 
 
 
@@ -1282,7 +1249,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 54
  []
  []
 
-[34]
+[35]
 Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
@@ -1302,89 +1269,65 @@ Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
 
-) <Images/flow.pdf, id=525, 454.69875pt x 644.4075pt>
-File: Images/flow.pdf Graphic file (type pdf)
- <use Images/flow.pdf>
-Package pdftex.def Info: Images/flow.pdf used on input line 7.
-(pdftex.def)             Requested size: 330.05322pt x 467.7587pt.
-)
-[35] [36 <C:/Users/Tohver/Desktop/ThesisLatexTemplate/thesis_template/Images/fl
-ow.pdf>]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.bbl
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.brf)
+)) [36] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write7
-)
-[37
+\openout7 = `thesis.brf'.
+
+ [37
 
 
-]
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/licen
-ce.tex
+]) [38]
+\openout2 = `9_backmatter/licence.aux'.
+
+ (./9_backmatter/licence.tex
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ´ in font cmr10!
-) [38
+)
+[39
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
-
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\thesis.aux
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\title_page/stardar
-d_page.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\0_frontmatter/abst
-ract.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\7/eestiabstract.au
-x)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\1_introduction/int
-roduction.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\2/background.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/researchquestion
-.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\3/contributions.au
-x)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\4/casestudies.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\5/conclusions.aux)
-
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/appen
-dices.aux)
-(C:\Users\Tohver\Desktop\ThesisLatexTemplate\thesis_template\9_backmatter/licen
-ce.aux))
+ (./thesis.aux (./title_page/stardard_page.aux)
+(./0_frontmatter/abstract.aux) (./7/eestiabstract.aux)
+(./1_introduction/introduction.aux) (./2/background.aux)
+(./3/researchquestion.aux) (./3/contributions.aux) (./4/casestudies.aux)
+(./5/conclusions.aux) (./9_backmatter/appendices.aux)
+(./9_backmatter/licence.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EF796490F4544B6BB7A29089A85890E1;1866.
+(rerunfilecheck)             Checksum: AC4494032B8CAFC1B8E25F6D0DE4A875;1775.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: EC2CD2A5AF3E99234EDDE42126076330;275.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 6F994B1F63002601D60B437D71428B70;613.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 28810 strings out of 493921
- 672944 string characters out of 3147279
- 844931 words of memory out of 3000000
- 31316 multiletter control sequences out of 15000+200000
- 15325 words of font info for 57 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 62i,12n,102p,1108b,2000s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (43 pages, 2201907 bytes).
+ 28693 strings out of 493117
+ 656424 string characters out of 6135434
+ 835056 words of memory out of 5000000
+ 31371 multiletter control sequences out of 15000+600000
+ 15325 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,12n,102p,1108b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (44 pages, 2019159 bytes).
 PDF statistics:
- 641 PDF objects out of 1000 (max. 8388607)
- 203 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 666 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

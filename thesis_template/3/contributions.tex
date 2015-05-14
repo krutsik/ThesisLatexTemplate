@@ -1,8 +1,14 @@
 \chapter{Implementation}
 
-\textbf{(An overview figure of the system is missing)}
+To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library. The architecture is described by Figure \ref{fig:architecture}. Code for both the library and the server application is available in the project's repository \footnote{https://github.com/huberflores/GestureMechanism}.
 
-To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library. Code for both the library and the server application is available in the project's repository \footnote{https://github.com/huberflores/GestureMechanism}.
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.41]{Images/client-server.png}
+\caption{Architecture of the developed mechanism}
+\label{fig:architecture}
+\end{center}
+\end{figure}
 
 \section{Application Library}
 
@@ -10,7 +16,7 @@ The library is a lightweight API that consists mainly of two parts: communicatio
 
 \textbf{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\footnote{http://developer.android.com/guide/google/gcm/} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
 
-\textbf{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
+\textbf{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. It is based on Google Cloud Messaging, but could easily be adapted to fit another push notification framework, for example XMPP \cite{flores2013cloudmessaging}. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
 
 The \textbf{ServerUtilities} class is an abstraction layer for communicating with our server. It has methods for registering and unregistering the device that are called in \textit{GCMIntentService} as discussed previously.
 
@@ -111,6 +117,6 @@ public class MyActivity extends Activity {
 
 \section{Summary}
 
-A new mechanism which is less intrusive than classical advertising frameworks was develoed. As can be seen, the library is easy to use with any Android application. It relies on push notifications to display an advertisement on the device's screen. The simple back-end application can be used to demonstrate the proposed method of displaying advertisements to the user.
+A new mechanism which is less intrusive than classical advertising frameworks was developed. As can be seen, the library is easy to use with any Android application. It relies on push notifications to display an advertisement on the device's screen. The simple back-end application can be used to demonstrate the proposed method of displaying advertisements to the user.
 
 The next chapter discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over classical advertising methods.
