@@ -11,12 +11,12 @@ A level-1 auxiliary file: 3/contributions.aux
 A level-1 auxiliary file: 4/casestudies.aux
 A level-1 auxiliary file: 5/conclusions.aux
 A level-1 auxiliary file: 9_backmatter/appendices.aux
-The style file: plain.bst
+The style file: abbrv.bst
 A level-1 auxiliary file: 9_backmatter/licence.aux
 Database file #1: thesis.bib
 You've used 10 entries,
             2118 wiz_defined-function locations,
-            560 strings with 6473 characters,
+            562 strings with 6247 characters,
 and the built_in function-call counts, 3435 in all, are:
 = -- 309
 > -- 174

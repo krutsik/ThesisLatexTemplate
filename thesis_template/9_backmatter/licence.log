@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  13 MAY 2015 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  14 MAY 2015 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,6 +6,15 @@ entering extended mode
 (./licence.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+! Undefined control sequence.
+l.1 \subsection
+               *{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -13,73 +22,91 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 ..."{u}ldsusele k\"{a}ttesaadavaks tegemiseks}
+l.1 \subsection*
+                {}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ..."{u}ldsusele k\"{a}ttesaadavaks tegemiseks}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (76.39828pt too wide) in paragraph at lines 1--2
+Overfull \hbox (76.39828pt too wide) in paragraph at lines 3--4
 []\OT1/cmr/bx/n/10 Lihtlitsents
  []
 
 
-Overfull \hbox (37.69424pt too wide) in paragraph at lines 1--2
+Overfull \hbox (37.69424pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 l~oput^^?o^^?o
  []
 
 
-Overfull \hbox (13.84023pt too wide) in paragraph at lines 1--2
+Overfull \hbox (13.84023pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 re-
  []
 
 
-Overfull \hbox (20.70824pt too wide) in paragraph at lines 1--2
+Overfull \hbox (20.70824pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 pro-
  []
 
 
-Overfull \hbox (21.08322pt too wide) in paragraph at lines 1--2
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 dut-
  []
 
 
-Overfull \hbox (23.64711pt too wide) in paragraph at lines 1--2
+Overfull \hbox (23.64711pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 seer-
  []
 
 
-Overfull \hbox (16.61102pt too wide) in paragraph at lines 1--2
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 im-
  []
 
 
-Overfull \hbox (23.6068pt too wide) in paragraph at lines 1--2
+Overfull \hbox (23.6068pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 iseks
  []
 
 
-Overfull \hbox (9.1041pt too wide) in paragraph at lines 1--2
+Overfull \hbox (9.1041pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 ja
  []
 
 
-Overfull \hbox (37.69424pt too wide) in paragraph at lines 1--2
+Overfull \hbox (37.69424pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 l~oput^^?o^^?o
  []
 
 
-Overfull \hbox (45.16919pt too wide) in paragraph at lines 1--2
+Overfull \hbox (45.16919pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 ^^?uldsusele
  []
 
 
-Overfull \hbox (74.87724pt too wide) in paragraph at lines 1--2
+Overfull \hbox (74.87724pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 k^^?attesaadavaks
  []
 
 
-Overfull \hbox (53.95387pt too wide) in paragraph at lines 1--2
+Overfull \hbox (53.95387pt too wide) in paragraph at lines 3--4
 \OT1/cmr/bx/n/10 tegemiseks 
  []
 
@@ -90,7 +117,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 M
+l.7 M
      ina, Jaan Tohver (s\"{u}nnikuup\"{a}ev: 14.06.1991)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -112,16 +139,16 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no s in font nullfont!
-LaTeX Font Info:    Try loading font information for +cmr on input line 5.
-LaTeX Font Info:    No file cmr.fd. on input line 5.
+LaTeX Font Info:    Try loading font information for +cmr on input line 7.
+LaTeX Font Info:    No file cmr.fd. on input line 7.
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `/cmr/m/n' instead on input line 5.
+(Font)              using `/cmr/m/n' instead on input line 7.
 
 ! Corrupted NFSS tables.
 wrong@fontshape ...message {Corrupted NFSS tables}
                                                   error@fontshape else let f...
-l.5 Mina, Jaan Tohver (s\"{u}
+l.7 Mina, Jaan Tohver (s\"{u}
                              nnikuup\"{a}ev: 14.06.1991)
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -130,7 +157,7 @@ and deduce the truth by order and method.
 
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 5.
+(Font)              using `OT1/cmr/m/n' instead on input line 7.
 
 Missing character: There is no n in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -154,12 +181,12 @@ Missing character: There is no 9 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
 []
  []
 
 
-Overfull \hbox (15.5556pt too wide) in paragraph at lines 5--6
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 7--8
 \/cmr/m/n/10 ^^?u^^?a
  []
 
@@ -170,8 +197,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 1
-     . annan Tartu \"{U}likoolile tasuta loa (lihtlitsentsi) enda loodud teo...
+l.11 1
+      . annan Tartu \"{U}likoolile tasuta loa (lihtlitsentsi) enda loodud te...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -303,12 +330,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 9--10
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--12
 []
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 9--10
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 11--12
 []\/cmr/m/n/10 U
  []
 
@@ -319,7 +346,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 1
+l.15 1
       .1. reprodutseerimiseks s\"{a}ilitamise ja \"{u}ldsusele k\"{a}ttesaad...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -490,47 +517,47 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ~o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 13--14
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 15--16
 \/cmr/m/n/10 ~o 
  []
 
@@ -541,7 +568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 1
+l.19 1
       .2. \"{u}ldsusele k\"{a}ttesaadavaks tegemiseks Tartu \"{u}likooli vee...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -695,37 +722,37 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--20
 []
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ^^?u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.55557pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ^^?u
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ~o
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ^^?a
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 19--20
 \/cmr/m/n/10 ~o 
  []
 
@@ -736,7 +763,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 2
+l.23 2
       . olen teadlik, et punktis 1 nimetatud \~{o}igused j\"{a}\"{a}vad alle...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -802,17 +829,17 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 21--22
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 21--22
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 23--24
 \/cmr/m/n/10 ~o
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 21--22
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 23--24
 \/cmr/m/n/10 ^^?a^^?a
  []
 
@@ -823,7 +850,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 3
+l.27 3
       . kinnitan, et lihtlitsentsi andmisega ei rikuta teiste isikute intell...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -951,12 +978,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
 []
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 25--26
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 27--28
 \/cmr/m/n/10 ~o 
  []
 
@@ -967,7 +994,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 T
+l.31 T
       artus, 14.05.2015
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.

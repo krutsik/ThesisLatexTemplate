@@ -1,45 +1,44 @@
 \begin{thebibliography}{10}
 
 \bibitem{aalto2004btandwap}
-Lauri Aalto, Nicklas G{\"o}thlin, Jani Korohonen, and Timo Ojala.
+L.~Aalto, N.~G{\"o}thlin, J.~Korohonen, and T.~Ojala.
 \newblock Bluetooth and wap push based location-aware mobile advertising
   system.
 \newblock In {\em MobiSys '04 Proceedings of the 2nd international conference
   on Mobile systems, applications, and services}, 2004.
 
 \bibitem{chowdhury2010consumer}
-Humayun~Kabir Chowdhury, Nargis Parvin, Christian Weitenberner, and Michael
-  Becker.
+H.~K. Chowdhury, N.~Parvin, C.~Weitenberner, and M.~Becker.
 \newblock Consumer attitude toward mobile advertising in an emerging market: An
   empirical study.
 \newblock {\em International Journal of Mobile Marketing}, 2006.
 
 \bibitem{flores2013cloudmessaging}
-Huber Flores and Satish Srirama.
+H.~Flores and S.~Srirama.
 \newblock Mobile cloud messaging supported by xmpp primitives.
 \newblock In {\em Proceeding of the fourth ACM workshop on Mobile cloud
   computing and services}, pages 17--24, 2013.
 
 \bibitem{geller2014howdoyoufeel}
-Tom Geller.
+T.~Geller.
 \newblock How do you feel?: your computer knows.
 \newblock {\em Communications of the ACM}, 57:24--26, January 2014.
 
 \bibitem{kiel2004frustration}
-Kiel~M Gilleade and Alan Dix.
+K.~M. Gilleade and A.~Dix.
 \newblock Using frustration in the design of adaptive videogames.
 \newblock In {\em Proceedings of the 2004 ACM SIGCHI International Conference
   on Advances in computer entertainment technology}, pages 228--232, 2004.
 
 \bibitem{parissa2005increasingadvalue}
-Parissa Haghirian, Maria Madlberger, and Andrea Tanuskova.
+P.~Haghirian, M.~Madlberger, and A.~Tanuskova.
 \newblock Increasing advertising value of mobile marketing - an empirical study
   of antecedents.
 \newblock In {\em Proceedings of the 38th Annual Hawaii International
   Conference on System Sciences}, volume~1, page 32c, 2005.
 
 \bibitem{hristova2004adme}
-Nataliya Hristova and G.~M.~P. O'Hare.
+N.~Hristova and G.~M.~P. O'Hare.
 \newblock Ad-me: Wireless advertising adapted to the user location, device and
   emotions.
 \newblock In {\em HICSS '04 Proceedings of the Proceedings of the 37th Annual
@@ -47,20 +46,20 @@ Nataliya Hristova and G.~M.~P. O'Hare.
   Volume 9}, 2004.
 
 \bibitem{dontkillmyads}
-Ilias Leontiadis, Christos Efstratiou, Marco Picone, and Cecilia Mascolo.
+I.~Leontiadis, C.~Efstratiou, M.~Picone, and C.~Mascolo.
 \newblock Don't kill my ads!: balancing privacy in an ad-supported mobile
   application market.
 \newblock In {\em Proceedings of the Twelfth Workshop on Mobile Computing
   Systems \& Applications Article No. 2}, 2012.
 
 \bibitem{likamwa2013moodscope}
-Robert LiKamWa, Yunxin Liu, Nicholas~D. Lane, and Lin Zhong.
+R.~LiKamWa, Y.~Liu, N.~D. Lane, and L.~Zhong.
 \newblock Moodscope: building a mood sensor from smartphone usage patterns.
 \newblock In {\em MobiSys '13 Proceeding of the 11th annual international
   conference on Mobile systems, applications, and services}, 2013.
 
 \bibitem{consumer2004melody}
-Melody~M. Tsang, Shu-Chun Ho, and Ting-Peng Liang.
+M.~M. Tsang, S.-C. Ho, and T.-P. Liang.
 \newblock Consumer attitudes toward mobile advertising: An empirical study.
 \newblock {\em International Journal of Electronic Commerce}, 8:65--78, Spring
   2004.

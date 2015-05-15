@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  14 MAY 2015 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.3)  14 MAY 2015 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,10 +914,7 @@ l.19 \end{abstracts}
 ])
 \openout2 = `7/eestiabstract.aux'.
 
- (./7/eestiabstract.tex
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¤ in font cmr10!
- [2
+ (./7/eestiabstract.tex [2
 
 
 ]) (./thesis.toc [3
@@ -938,29 +935,57 @@ Missing character: There is no ¤ in font cmr10!
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
  [2]) [3]
 \openout2 = `2/background.aux'.
 
 
 (./2/background.tex
  2.
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
 [4
 
 
 
 ]
-Overfull \hbox (37.41292pt too wide) in paragraph at lines 14--14
-[][][]\OT1/cmr/m/n/9 http://maps.yankeegroup.com/ygapp/content/f47515e9c15c4eac
-90bab1ced3582bdf/50/DAILYINSIGHT/0| 
+Overfull \hbox (33.63313pt too wide) in paragraph at lines 12--12
+[][][]\OT1/cmr/m/n/9 Eric Jack-son, What Is Next For Ap-ple's iAd?, http://www.
+forbes.com/sites/ericjackson/2011/11/11/what-
+ []
+
+
+Overfull \hbox (45.61569pt too wide) in paragraph at lines 12--12
+[][][]\OT1/cmr/m/n/9 How Ap-ple Is Re-vamp-ing Its iAd Plat-form, http://www.fo
+rbes.com/sites/greatspeculations/2014/12/18/how-
+ []
+
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no º in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ± in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ³ in font cmr9!
+
+Overfull \hbox (20.27228pt too wide) in paragraph at lines 14--14
+\OT1/cmr/m/n/9 http://maps.yankeegroup.com/ygapp/content/f47515e9c15c4eac90bab1
+ced3582bdf/50/DAILYINSIGHT/0,
  []
 
 [5]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+ [6]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
@@ -985,18 +1010,18 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [6]) [7] [8]
+ [7]) [8]
 \openout2 = `3/researchquestion.aux'.
 
  (./3/researchquestion.tex
  3.
-<Images/banner.png, id=299, 191.71625pt x 377.41pt>
+<Images/banner.png, id=294, 191.71625pt x 377.41pt>
 File: Images/banner.png Graphic file (type png)
  <use Images/banner.png>
 Package pdftex.def Info: Images/banner.png used on input line 13.
 (pdftex.def)             Requested size: 191.71577pt x 377.40907pt.
 
-<Images/fullscreen.png, id=301, 191.71625pt x 377.41pt>
+<Images/fullscreen.png, id=296, 191.71625pt x 377.41pt>
 File: Images/fullscreen.png Graphic file (type png)
 
 <use Images/fullscreen.png>
@@ -1011,7 +1036,7 @@ Package pdftex.def Info: Images/fullscreen.png used on input line 14.
 
  (./3/contributions.tex
  4.
-<Images/client-server.png, id=325, 971.63pt x 573.14125pt>
+<Images/client-server.png, id=320, 971.63pt x 573.14125pt>
 File: Images/client-server.png Graphic file (type png)
 
 <use Images/client-server.png>
@@ -1027,14 +1052,14 @@ Package pdftex.def Info: Images/client-server.png used on input line 7.
 
  (./4/casestudies.tex
  5.
-<Images/classicalad_banner.png, id=423, 722.7pt x 1284.8pt>
+<Images/classicalad_banner.png, id=417, 722.7pt x 1284.8pt>
 File: Images/classicalad_banner.png Graphic file (type png)
 
 <use Images/classicalad_banner.png>
 Package pdftex.def Info: Images/classicalad_banner.png used on input line 18.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/classicalad_fullscreen.png, id=424, 722.7pt x 1284.8pt>
+<Images/classicalad_fullscreen.png, id=418, 722.7pt x 1284.8pt>
 File: Images/classicalad_fullscreen.png Graphic file (type png)
 
 <use Images/classicalad_fullscreen.png>
@@ -1042,50 +1067,50 @@ Package pdftex.def Info: Images/classicalad_fullscreen.png used on input line 1
 9.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/gesturead_small1.png, id=425, 722.7pt x 1284.8pt>
+<Images/gesturead_small1.png, id=419, 722.7pt x 1284.8pt>
 File: Images/gesturead_small1.png Graphic file (type png)
 
 <use Images/gesturead_small1.png>
-Package pdftex.def Info: Images/gesturead_small1.png used on input line 29.
+Package pdftex.def Info: Images/gesturead_small1.png used on input line 27.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
 
-<Images/gesturead_small2.png, id=426, 722.7pt x 1284.8pt>
+<Images/gesturead_small2.png, id=420, 722.7pt x 1284.8pt>
 File: Images/gesturead_small2.png Graphic file (type png)
 
 <use Images/gesturead_small2.png>
-Package pdftex.def Info: Images/gesturead_small2.png used on input line 30.
+Package pdftex.def Info: Images/gesturead_small2.png used on input line 28.
+(pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
+
+<Images/gesturead_big1.png, id=421, 722.7pt x 1284.8pt>
+File: Images/gesturead_big1.png Graphic file (type png)
+
+<use Images/gesturead_big1.png>
+Package pdftex.def Info: Images/gesturead_big1.png used on input line 36.
+(pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
+
+<Images/gesturead_big2.png, id=422, 722.7pt x 1284.8pt>
+File: Images/gesturead_big2.png Graphic file (type png)
+
+<use Images/gesturead_big2.png>
+Package pdftex.def Info: Images/gesturead_big2.png used on input line 37.
 (pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
  [18
 
 
 
 ] [19 <./Images/classicalad_banner.png> <./Images/classicalad_fullscreen.png>] 
-[20 <./Images/gesturead_small1.png> <./Images/gesturead_small2.png>]
-<Images/gesturead_big1.png, id=446, 722.7pt x 1284.8pt>
-File: Images/gesturead_big1.png Graphic file (type png)
-
-<use Images/gesturead_big1.png>
-Package pdftex.def Info: Images/gesturead_big1.png used on input line 40.
-(pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
-
-<Images/gesturead_big2.png, id=447, 722.7pt x 1284.8pt>
-File: Images/gesturead_big2.png Graphic file (type png)
-
-<use Images/gesturead_big2.png>
-Package pdftex.def Info: Images/gesturead_big2.png used on input line 41.
-(pdftex.def)             Requested size: 180.67455pt x 321.19922pt.
- [21 <./Images/gesturead_big1.png> <./Images/gesturead_big2.png>] [22] [23] [24
-] [25] [26] [27] [28] [29] [30]) [31]
+[20 <./Images/gesturead_small1.png> <./Images/gesturead_small2.png>] [21 <./Ima
+ges/gesturead_big1.png> <./Images/gesturead_big2.png>] [22] [23] [24] [25] [26]
+ [27] [28]) [29]
 \openout2 = `5/conclusions.aux'.
 
-
-(./5/conclusions.tex
+ (./5/conclusions.tex
  6.
-[32
+[30
 
 
 
-]) [33]
+]) [31]
 \openout2 = `9_backmatter/appendices.aux'.
 
  (./9_backmatter/appendices.tex
@@ -1140,7 +1165,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 24
  []
  []
 
-[34
+[32
 
 
 
@@ -1249,7 +1274,7 @@ Overfull \hbox (82.51172pt too wide) detected at line 54
  []
  []
 
-[35]
+[33]
 Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
@@ -1269,47 +1294,58 @@ Overfull \hbox (82.51172pt too wide) detected at line 64
  []
  []
 
-)) [36] (./thesis.bbl (./thesis.brf)
+)) [34] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write7
 \openout7 = `thesis.brf'.
 
- [37
+ [35
 
 
-]) [38]
+]) [36]
 \openout2 = `9_backmatter/licence.aux'.
 
  (./9_backmatter/licence.tex
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ´ in font cmr10!
 )
-[39
+[1
+
+
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./thesis.aux (./title_page/stardard_page.aux)
 (./0_frontmatter/abstract.aux) (./7/eestiabstract.aux)
 (./1_introduction/introduction.aux) (./2/background.aux)
 (./3/researchquestion.aux) (./3/contributions.aux) (./4/casestudies.aux)
 (./5/conclusions.aux) (./9_backmatter/appendices.aux)
 (./9_backmatter/licence.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AC4494032B8CAFC1B8E25F6D0DE4A875;1775.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 6F994B1F63002601D60B437D71428B70;613.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Checksum: 6B9DDF59987D722166756368FCABECE3;1722.
+
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: 9C836695EE7ADF2835C1F646DA6BCF98;613
+(rerunfilecheck)             After:  6F994B1F63002601D60B437D71428B70;613.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 28693 strings out of 493117
- 656424 string characters out of 6135434
- 835056 words of memory out of 5000000
+ 28692 strings out of 493117
+ 656452 string characters out of 6135434
+ 836056 words of memory out of 5000000
  31371 multiletter control sequences out of 15000+600000
  15325 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,102p,1108b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,102p,1353b,1983s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1324,10 +1360,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (44 pages, 2019159 bytes).
+Output written on thesis.pdf (42 pages, 2018474 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 210 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 655 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 209 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

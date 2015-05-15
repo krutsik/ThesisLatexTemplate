@@ -1,6 +1,6 @@
 \chapter{Implementation}
 
-To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library. The architecture is described by Figure \ref{fig:architecture}. Code for both the library and the server application is available in the project's repository \footnote{https://github.com/huberflores/GestureMechanism}.
+To demonstrate the feasibility of the proposed approach, a Java library for Android is developed. Also, a server application is developed for testing the library. The architecture is described on Figure \ref{fig:architecture}. Code for both the library and the server application is available in the project's repository \footnote[38]{https://github.com/huberflores/GestureMechanism, 14.05.15}.
 
 \begin{figure}
 \begin{center}
@@ -14,7 +14,7 @@ To demonstrate the feasibility of the proposed approach, a Java library for Andr
 
 The library is a lightweight API that consists mainly of two parts: communication with the server,  and the ad view. The components of the server communication part are as follows:
 
-\textbf{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\footnote{http://developer.android.com/guide/google/gcm/} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
+\textbf{AdContentLoader} is the only class that the application developer should ever have the need to call. An instance of it is initialised in an activity's \textit{onCreate} method. It then adds the ad view to the activity's content view, registers a broadcast receiver to receive messages from the server and registers the device to Google Cloud Messaging service (GCM).\footnote[39]{http://developer.android.com/guide/google/gcm/, 14.05.15} The application developer should also call \textit{onPause} and \textit{destroy} methods in the activity's corresponding methods, the first of which unregisters from GCM and the second unregisters the broadcast receiver and disposes the GCM connection. The developer can also set the position of the appearing advertisement through this class.
 
 \textbf{GCMIntentService} is a subclass of \textit{GCMBaseIntentService} and responsible for handling communication from GCM. It is based on Google Cloud Messaging, but could easily be adapted to fit another push notification framework, for example XMPP \cite{flores2013cloudmessaging}. \textit{onRegistered} method is called when the device is registered to GCM and makes a call to register to our back-end with the registration id from GCM. \textit{onUnregistered} unregisters the device from our back-end once it was unregistered from GCM. \textit{onMessage} receives and decodes the information about an advertisement that was sent from the server. There are also methods for receiving and handling server-side errors.
 
@@ -22,7 +22,7 @@ The \textbf{ServerUtilities} class is an abstraction layer for communicating wit
 
 Finally, \textbf{FileDownloader} is responsible for downloading the image files for an advertisement once \textit{GCMIntentService} receives and decodes them.
 
-The user interface portion of the library is in a single class: \textbf{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is then capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
+The user interface portion of the library is in a single class: \textbf{DynamicAdView}. It is responsible for the displaying the advertisement as well as handling the user's gestures. The view is invisible until \textit{FileDownloader} notifies \textit{AdContentLoader} that images for an advertisement have been downloaded. \textit{AdContentLoader} then prompts the view to update itself with the new images. The view is capable of handling pan, zoom and flick gestures. When the user moves the view out of the screen's bounds it remains invisible until another update notification.
 
 \section{Back-end Distributor}
 
@@ -38,7 +38,7 @@ On the server-side there is a Java server application that handles the client's 
 
 \section{API Integration into Mobile Lifecycle}
 
-The Application Programming Interface (API) to use in an Android Application is very minimalist. It's usage is explained in the project's repository \footnote{https://github.com/huberflores/GestureMechanism/blob/master/README.md}. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The \textit{AndroidManifest.xml} file of the application needs to be modified to include required permissions:
+The Application Programming Interface (API) to use in an Android application is very minimalist. It's usage is explained in the project's repository \footnote[40]{https://github.com/huberflores/GestureMechanism/blob/master/README.md, 14.05.15}. To add the functionality of the mechanism to an application the developer has to import the Java archive file into the project. The \textit{AndroidManifest.xml} file of the application needs to be modified to include required permissions:
 
 \lstset{language=XML}
 \begin{lstlisting}
@@ -65,7 +65,6 @@ Also a broadcast receiver for Google Cloud Messaging notifications:
     <intent-filter>
         <action android:name="com.google.android.c2dm.intent.RECEIVE" />
         <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-
         <category android:name="your_package" />
     </intent-filter>
 </receiver>
@@ -117,6 +116,6 @@ public class MyActivity extends Activity {
 
 \section{Summary}
 
-A new mechanism which is less intrusive than classical advertising frameworks was developed. As can be seen, the library is easy to use with any Android application. It relies on push notifications to display an advertisement on the device's screen. The simple back-end application can be used to demonstrate the proposed method of displaying advertisements to the user.
+A new mechanism which is less intrusive than conventional advertising frameworks was developed. As can be seen, the library is easy to use with any Android application. It relies on push notifications to display an advertisement on the device's screen. The simple back-end application can be used to demonstrate the proposed method of displaying advertisements to the user.
 
-The next chapter discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over classical advertising methods.
+The next chapter discusses the method used for gathering user feedback and analyses the results to support the hypothesis that the proposed method improves user experience over conventional advertising methods.
