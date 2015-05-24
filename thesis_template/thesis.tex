@@ -11,7 +11,7 @@
 %: Style file for Latex
 % Most style definitions are in the external file PhDthesisPSnPDF.
 % In this template package, it can be found in ./Latex/Classes/
-\documentclass[oneside,11pt]{Latex/Classes/PhDthesisPSnPDF}
+\documentclass[oneside,12pt]{Latex/Classes/PhDthesisPSnPDF}
 
 %: Macro file for Latex
 % Macros help you summarise frequently repeated Latex commands.
@@ -19,9 +19,22 @@
 % An macro that you may use frequently is the figuremacro (see introduction.tex)
 \include{Latex/Macros/MacroFile1}
 
+\usepackage[a4paper, margin=2.54cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath} 
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{tabu}
+\usepackage{graphicx}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
 \usepackage{pgfplots}
 \usepackage{listings}
 \usepackage{color}
+\usepackage{xcolor} 
 \usepackage{footmisc}
 
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
@@ -86,6 +99,7 @@
 % sets line spacing
 \renewcommand\baselinestretch{1.2}
 \baselineskip=18pt plus1pt
+\pagenumbering{gobble}
 
 %: ----------------------- UT cover page ------------------------
 
@@ -94,7 +108,7 @@
 %: ----------------------- abstract ------------------------
 
 \include{0_frontmatter/abstract}
-\include{7/eestiabstract}
+%\include{7/eestiabstract}
 
 % The original template provides and abstractseparate environment, if your institution requires them to be separate. I think it's easier to print the abstract from the complete thesis by restricting printing to the relevant page.
 % \begin{abstractseparate}
@@ -159,21 +173,21 @@
 %:                  BACK MATTER: appendices, refs,..
 % --------------------------------------------------------------
 
-%: ----------------------- appendices --------------------------
-
-\include{9_backmatter/appendices}
-
 %: ----------------------- bibliography ------------------------
 
 \bibliographystyle{abbrv}
 \bibliography{thesis}
 
+%: ----------------------- appendices --------------------------
+
+\include{9_backmatter/appendices}
+
 %: ----------------------- licence -----------------------------
 
-\clearpage
+%\clearpage
 
-\pagenumbering{gobble}
+%\pagenumbering{gobble}
 
-\include{9_backmatter/licence}
+%\include{9_backmatter/licence}
 
 \end{document}

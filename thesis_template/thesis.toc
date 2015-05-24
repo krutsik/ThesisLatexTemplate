@@ -1,28 +1,28 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Contributions}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Contributions}{1}{section.1.2}
 \contentsline {section}{\numberline {1.3}Outline}{3}{section.1.3}
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {2}State of the Art}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Industrial Advertising Frameworks}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Related Works}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}Related Works}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Summary}{8}{section.2.3}
 \contentsline {chapter}{\numberline {3}Problem Statement}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Research Question}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Summary}{11}{section.3.2}
 \contentsline {chapter}{\numberline {4}Implementation}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Application Library}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Back-end Distributor}{14}{section.4.2}
+\contentsline {section}{\numberline {4.2}Back-end Distributor}{13}{section.4.2}
 \contentsline {section}{\numberline {4.3}API Integration into Mobile Lifecycle}{14}{section.4.3}
 \contentsline {section}{\numberline {4.4}Summary}{16}{section.4.4}
-\contentsline {chapter}{\numberline {5}Case Studies}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}Validation}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Results}{22}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Participants' Opinion on Conventional Mobile Advertising}{22}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Participants' Willingness to Adapt to New Methods of Advertising}{25}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Participants' Opinion of Dynamic Advertisements}{27}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Summary}{29}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Directions}{30}{chapter.6}
+\contentsline {chapter}{\numberline {5}Case Studies}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Validation}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Results}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Participants' Opinion on Conventional Mobile Advertising}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Participants' Willingness to Adapt to New Methods of Advertising}{22}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Participants' Opinion of Dynamic Advertisements}{26}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Summary}{26}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Directions}{29}{chapter.6}
+\contentsline {chapter}{Bibliography}{30}{chapter*.18}
 \contentsline {chapter}{\numberline {7}Appendices}{32}{chapter.7}
-\contentsline {chapter}{Bibliography}{35}{appendix*.19}
